@@ -3,24 +3,12 @@
     <h2 class="text-center mb-4">Technologies You Will Learn</h2>
 
     <div class="row g-3 justify-content-center">
-      <!--ALLE Technologien tech.ts -->
-      @for (tech of technologies; track $index) {
-
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="border rounded text-center py-3 h-100">
-          <!-- ✔️ Icon (für später Icons )
-            <img
-              [src]="tech.iconUrl"
-              [alt]="tech.iconAlt"
-              class="img-fluid mb-2"
-            />
-            -->
-
-          <!-- ✔️ TECHNOLOGIE NAME -->
-          <span class="fw-bold">{{ tech.name }}</span>
+      @for (tech of technologies; track tech.name) {
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="border rounded text-center py-3 h-100">
+            <span class="fw-bold">{{ tech.name }}</span>
+          </div>
         </div>
-      </div>
-
       }
     </div>
   </div>

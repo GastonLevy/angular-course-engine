@@ -3,7 +3,7 @@ import { Component, signal, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './core/navbar/navbar';
 import { Footer } from './core/footer/footer';
-import { AppConfigService } from './data-access/course-catalog.service';
+import { CourseCatalogService } from './data-access/course-catalog.service';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ import { AppConfigService } from './data-access/course-catalog.service';
 export class App {
   protected readonly title = signal('app');
 
-  private readonly configService = inject(AppConfigService);
+  private readonly configService = inject(CourseCatalogService);
 
   rotateConfig() {
     this.configService.rotateConfig();

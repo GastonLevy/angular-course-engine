@@ -6,24 +6,29 @@
     color: var(--text);
 }
 
-/* Item */
 .tech-item {
-    padding: 1rem;
+    padding: 1.2rem 1rem;
     border: 1px solid var(--border);
     border-radius: 10px;
     background-color: var(--surface);
     transition: border-color 0.2s ease, transform 0.2s ease;
+    text-align: center;
 }
 
-/* Hover sutil */
 .tech-item:hover {
     border-color: var(--primary);
     transform: translateY(-2px);
 }
 
-/* Texto */
+.tech-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    margin-bottom: 0.6rem;
+}
+
 .tech-item span {
     font-weight: 500;
+    font-size: 0.9rem;
     color: var(--text);
-    font-size: 0.95rem;
 }

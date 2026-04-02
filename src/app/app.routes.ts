@@ -15,6 +15,6 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: '', // antes estaba 'about-us'
+    redirectTo: '',
   },
 ];

@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "title": "Become a Full-Stack Angular & Symfony Developer",
+    "text": "Master modern front-end with Angular and robust back-end with Symfony to build complete, production-ready web applications.",
+    "buttonText": "Start Full-Stack Journey",
+    "buttonLink": "#price-offers",
+    "imageUrl": "assets/hero-fullstack.png",
+    "imageAlt": "Full-stack developer working on Angular and Symfony"
+  },
+  "courseFormats": {
+    "heading": "Course Modes",
+    "subheading": "Choose the learning style that matches how you want to become a full-stack developer.",
+    "formats": [
+      {
+        "title": "Online Intensive",
+        "features": [
+          "Live online Angular & Symfony classes",
+          "Code reviews and pair programming",
+          "Dedicated mentor support in chat"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+      },
+      {
+        "title": "On Campus",
+        "features": [
+          "Full-time classes at school",
+          "Team projects simulating real companies",
+          "Direct support from senior instructors"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "Hybrid",
+        "features": [
+          "Mix on-site and remote classes",
+          "Flexible schedule for professionals",
+          "Access to all recordings and materials"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-primary",
+        "cardClass": "border-primary",
+        "headerClass": "text-bg-primary border-primary"
+      }
+    ]
+  },
+  "priceOffers": {
+    "heading": "Full-Stack Programs",
+    "subheading": "Pick the intensity and support level that fits your goals and availability.",
+    "offers": [
+      {
+        "title": "Starter Full-Stack",
+        "price": 39,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Intro to HTML, CSS & JavaScript",
+          "Basics of Angular & PHP",
+          "Email support",
+          "Access to learning platform"
+        ],
+        "buttonText": "Sign up",
+        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+      },
+      {
+        "title": "Professional Full-Stack",
+        "price": 79,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Angular with TypeScript in depth",
+          "Symfony backend with REST APIs",
+          "Code reviews & mentor feedback",
+          "Priority support and Q&A sessions"
+        ],
+        "buttonText": "Get started",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "Career Full-Stack",
+        "price": 129,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Real client-like full-stack projects",
+          "Advanced Angular patterns & state",
+          "Symfony, authentication & deployment",
+          "Career coaching & interview preparation"
+        ],
+        "buttonText": "Contact us",
+        "buttonClass": "w-100 btn btn-lg btn-primary",
+        "cardClass": "border-primary",
+        "headerClass": "text-bg-primary border-primary"
+      }
+    ]
+  },
+  "teachers": [
+    {
+      "name": "Laura Becker",
+      "title": "Senior Full-Stack Engineer (Angular & Symfony)",
+      "description": "Leads complex enterprise projects using Angular front-ends and Symfony backends. Passionate about clean architecture, testing and mentoring new developers.",
+      "imageUrl": "assets/teacher-fullstack1.jpg",
+      "imageAlt": "Laura Becker"
+    },
+    {
+      "name": "Miguel Alvarez",
+      "title": "Frontend Architect",
+      "description": "Specialist in TypeScript, Angular, reactive patterns and scalable UI architectures. Focused on teaching real-world workflows and best practices.",
+      "imageUrl": "assets/teacher-fullstack2.jpg",
+      "imageAlt": "Miguel Alvarez"
+    },
+    {
+      "name": "Claire Dubois",
+      "title": "Backend & DevOps Engineer",
+      "description": "Symfony and PHP expert with strong experience in REST APIs, authentication, CI/CD and cloud deployments. Helps students ship production-ready backends.",
+      "imageUrl": "assets/teacher-fullstack3.jpg",
+      "imageAlt": "Claire Dubois"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "HTML",
+      "iconUrl": "assets/html.png",
+      "iconAlt": "HTML"
+    },
+    {
+      "name": "CSS",
+      "iconUrl": "assets/css.png",
+      "iconAlt": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "iconUrl": "assets/js.png",
+      "iconAlt": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "iconUrl": "assets/ts.png",
+      "iconAlt": "TypeScript"
+    },
+    {
+      "name": "Angular",
+      "iconUrl": "assets/angular.png",
+      "iconAlt": "Angular"
+    },
+    {
+      "name": "PHP",
+      "iconUrl": "assets/php.png",
+      "iconAlt": "PHP"
+    },
+    {
+      "name": "Symfony",
+      "iconUrl": "assets/symfony.png",
+      "iconAlt": "Symfony"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "hero": {
+    "title": "Master Modern Frontend with Angular",
+    "text": "Build fast, accessible and beautiful web applications using Angular, TypeScript and solid UI/UX principles.",
+    "buttonText": "Explore Frontend Track",
+    "buttonLink": "#price-offers",
+    "imageUrl": "assets/hero-frontend.png",
+    "imageAlt": "Frontend developer working with Angular"
+  },
+  "courseFormats": {
+    "heading": "Frontend Learning Paths",
+    "subheading": "Start from the basics or sharpen your Angular skills at an advanced level.",
+    "formats": [
+      {
+        "title": "Angular Basics",
+        "features": [
+          "Fundamentals of HTML, CSS and TypeScript",
+          "Components, templates and data binding",
+          "Hands-on exercises in each module"
+        ],
+        "buttonText": "View details",
+        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+      },
+      {
+        "title": "Advanced Angular",
+        "features": [
+          "Routing, forms and HTTP communication",
+          "State management and architecture patterns",
+          "Performance tuning and best practices"
+        ],
+        "buttonText": "View details",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "UI/UX & Angular",
+        "features": [
+          "Design systems and components",
+          "Responsive layouts and accessibility",
+          "Real-world UI refactoring sessions"
+        ],
+        "buttonText": "View details",
+        "buttonClass": "w-100 btn btn-lg btn-primary",
+        "cardClass": "border-primary",
+        "headerClass": "text-bg-primary border-primary"
+      }
+    ]
+  },
+  "priceOffers": {
+    "heading": "Frontend Plans",
+    "subheading": "Choose the plan that fits how deep you want to go into Angular and frontend development.",
+    "offers": [
+      {
+        "title": "Starter Frontend",
+        "price": 19,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "HTML, CSS and basic JavaScript",
+          "Intro to Angular components",
+          "Community support"
+        ],
+        "buttonText": "Sign up",
+        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+      },
+      {
+        "title": "Angular Pro",
+        "price": 59,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Full Angular curriculum",
+          "Code reviews and live sessions",
+          "Access to all frontend projects"
+        ],
+        "buttonText": "Get started",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "UI/UX & Angular Expert",
+        "price": 99,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Design-focused Angular projects",
+          "Mentorship from senior frontend engineers",
+          "Portfolio and code review sessions"
+        ],
+        "buttonText": "Talk with us",
+        "buttonClass": "w-100 btn btn-lg btn-primary",
+        "cardClass": "border-primary",
+        "headerClass": "text-bg-primary border-primary"
+      }
+    ]
+  },
+  "teachers": [
+    {
+      "name": "Anna Müller",
+      "title": "Lead Angular Engineer",
+      "description": "Expert in Angular, TypeScript and scalable frontend architectures. Helps students write clean, maintainable and testable frontend code.",
+      "imageUrl": "assets/teacher-frontend1.jpg",
+      "imageAlt": "Anna Müller"
+    },
+    {
+      "name": "David Rossi",
+      "title": "UI/UX & Frontend Specialist",
+      "description": "Combines design and frontend development to create beautiful, accessible user interfaces with Angular and modern CSS.",
+      "imageUrl": "assets/teacher-frontend2.jpg",
+      "imageAlt": "David Rossi"
+    },
+    {
+      "name": "Elena Novak",
+      "title": "Frontend Mentor",
+      "description": "Guides students through real-world projects, code reviews and pair programming to build confidence as Angular developers.",
+      "imageUrl": "assets/teacher-frontend3.jpg",
+      "imageAlt": "Elena Novak"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "HTML",
+      "iconUrl": "assets/html.png",
+      "iconAlt": "HTML"
+    },
+    {
+      "name": "CSS",
+      "iconUrl": "assets/css.png",
+      "iconAlt": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "iconUrl": "assets/js.png",
+      "iconAlt": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "iconUrl": "assets/ts.png",
+      "iconAlt": "TypeScript"
+    },
+    {
+      "name": "Angular",
+      "iconUrl": "assets/angular.png",
+      "iconAlt": "Angular"
+    }
+  ]
+}

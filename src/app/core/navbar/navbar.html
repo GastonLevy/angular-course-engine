@@ -2,9 +2,9 @@
   <div class="container">
     <!-- Logo -->
 
-    <a class="navbar-brand fw-bold" href="#course">CodeFactory</a>
+    <a class="navbar-brand fw-bold" href="{{ items[0].href }}">{{ items[0].text }}</a>
 
-    <!-- Hamburger / Mobile Menu --->
+    <!-- Menu --->
     <button
       class="navbar-toggler"
       type="button"
@@ -20,33 +20,27 @@
     <!-- Navigation Links -->
     <div class="collapse navbar-collapse" id="mainNavbar">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#course">Course</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#teacher">Teacher</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#tech">Technologies</a>
-        </li>
+        @for (item of items; track $index) { @if (item.type === 'link') {
 
         <li class="nav-item">
           <a class="nav-link" href="#news">News</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/about-us">About us</a>
+          <a class="nav-link" routerLink="/about-us">About us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" routerLink="/contact">Contact</a>
         </li>
+        } }
       </ul>
 
       <!-- Register Button -->
-      <a href="#price-offers" class="btn btn-primary ms-lg-3"> Register </a>
+
+      <a href="{{ items.at(-1)?.href }}" class="btn btn-primary ms-lg-3">
+        {{ items.at(-1)?.text }}
+      </a>
     </div>
   </div>
 </nav>

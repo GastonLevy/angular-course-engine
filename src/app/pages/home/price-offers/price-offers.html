@@ -1,0 +1,37 @@
+<div class="d-flex justify-content-center">
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-body-emphasis">Offers</h1>
+    <p class="fs-5 text-body-secondary" style="width: 40rem">
+      Quickly build your knowledge with our three types of courses—beginner, intermediate, and
+      advanced. Learn at your own pace and grow your skills with simple, practical lessons designed
+      for every level.
+    </p>
+  </div>
+</div>
+
+<main>
+  <div class="d-flex justify-content-center row row-cols-1 row-cols-md-3 mb-4 text-center mx-5">
+    @for (offer of config.offers; track $index) {
+    <div class="col" style="width: 24rem">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">{{ offer.title }}</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            €{{ offer.price }}<small class="text-body-secondary fw-light">{{ offer.period }}</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            @for (feature of offer.features; track $index) {
+            <li>{{ feature }}</li>
+            }
+          </ul>
+          <button type="button" [ngClass]="offer.buttonClass">
+            {{ offer.buttonText }}
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</main>

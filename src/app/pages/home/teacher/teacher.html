@@ -1,23 +1,32 @@
 <section id="teacher" class="py-5">
   <div class="container">
-    <h2 class="text-center mb-4">Our Instructor</h2>
+    <h2 class="text-center mb-4">Our Instructors</h2>
 
-    <div class="row align-items-center">
-      <!-- TEACHER IMAGE -->
-      <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
-        <img src="assets/teacher.jpg" alt="Teacher" class="img-fluid rounded shadow-sm" />
+    <div class="row g-4">
+      <!--ALLE Lehrer aus teacher.ts -->
+      @for (teacher of teachers; track $index) {
+
+      <div class="col-12 col-md-4">
+        <div class="text-center">
+          <!-- Lehrerbild -->
+          <img
+            [src]="teacher.imageUrl"
+            [alt]="teacher.imageAlt"
+            class="img-fluid rounded shadow-sm mb-3"
+          />
+
+          <!-- Name -->
+          <h3 class="fw-bold mb-1">{{ teacher.name }}</h3>
+
+          <!-- Titel -->
+          <h5 class="text-muted mb-2">{{ teacher.title }}</h5>
+
+          <!-- Beschreibung -->
+          <p>{{ teacher.description }}</p>
+        </div>
       </div>
 
-      <!-- TEACHER TEXT -->
-      <div class="col-12 col-md-8">
-        <h3 class="fw-bold mb-2">John Doe</h3>
-
-        <p class="mb-0">
-          Senior Developer & Mentor with over 10 years of experience in modern web technologies,
-          including JavaScript, TypeScript, HTML, CSS and Angular. Passionate about teaching and
-          helping students grow into job-ready developers.
-        </p>
-      </div>
+      }
     </div>
   </div>
 </section>

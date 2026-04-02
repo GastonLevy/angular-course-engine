@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gastón Omar Lino Levy - Frontend Developer (Angular)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @page {
+        size: A4;
+        margin: 14mm;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background-color: #f4f4f4;
+        color: #222;
+        font-size: 14px;
+        line-height: 1.45; /* + levemente más aire */
+      }
+
+      .cv-wrapper {
+        max-width: 780px;
+        margin: 10px auto; /* +2px */
+        padding: 16px 18px; /* +4px vertical */
+        background-color: #ffffff;
+        border-radius: 6px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.06);
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px; /* +2px */
+        align-items: flex-start;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 6px; /* +2 */
+        margin-bottom: 10px; /* +4 */
+      }
+
+      .header-main {
+        flex: 1;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 0 0 4px 0; /* +2px */
+      }
+
+      h2 {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0 0 6px 0;
+        color: #444;
+      }
+
+      .contact {
+        font-size: 13px;
+        line-height: 1.2;
+      }
+
+      .photo-box {
+        width: 105px;
+        height: 135px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #fafafa;
+      }
+
+      .section {
+        margin-bottom: 10px; /* +4px */
+      }
+
+      h3 {
+        font-size: 14px;
+        margin: 6px 0 6px 0; /* +3px */
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        color: #333;
+        padding: 3px 6px; /* +1px vertical */
+        background-color: #f3f3f3;
+        border-left: 3px solid #777;
+      }
+
+      p {
+        font-size: 13px;
+        margin: 2px 0 6px 0; /* +2px */
+      }
+
+      .job-title,
+      .edu-title {
+        font-weight: 700;
+        font-size: 12px;
+        color: #222;
+        margin-bottom: 0px; /* +2px */
+      }
+
+      .job-meta,
+      .edu-meta {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 4px; /* +2px */
+        font-style: italic;
+      }
+
+      ul {
+        margin: 4px 0 6px 20px; /* +2px */
+        padding: 0;
+        font-size: 13px;
+      }
+
+      li {
+        margin-bottom: 3px; /* +1px */
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin-top: 4px; /* +2px */
+      }
+
+      .tag {
+        border: 1px solid #ccc;
+        border-radius: 999px;
+        padding: 1px 10px; /* +1px */
+        font-size: 12px;
+        background-color: #f6f6f6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cv-wrapper">
+      <header class="header">
+        <div class="header-main">
+          <h1>Gastón Omar Lino Levy</h1>
+          <h2>Frontend Developer (Angular)</h2>
+          <div class="contact">
+            Vienna, Austria<br />
+            Phone: +43 660 1638956<br />
+            Email: <a href="mailto:ggastlino@gmail.com">ggastlino@gmail.com</a><br />
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/gaston-omar-lino-levy" target="_blank">
+              linkedin.com/in/gaston-omar-lino-levy
+            </a>
+          </div>
+        </div>
+        <div class="photo-box">
+          <!-- Replace this box with your photo (e.g. an <img> tag) -->
+          Photo<br />placeholder
+        </div>
+      </header>
+
+      <section class="section">
+        <h3>Professional Summary</h3>
+        <p>
+          Frontend Developer with hands-on experience in Angular and TypeScript, building dynamic
+          and reusable interfaces. Background in full-stack development and SaaS products, plus
+          experience leading projects as a Project Manager. Focused on clean code, maintainable
+          architectures and delivering value for mid-size businesses.
+        </p>
+      </section>
+
+      <section class="section">
+        <h3>Work Experience</h3>
+
+        <div>
+          <div class="job-title">Freelance Frontend Developer / Project Manager</div>
+          <div class="job-meta">
+            Self-employed &mdash; Remote / Vienna &mdash;
+            <!-- e.g. 2024 &ndash; Present -->
+          </div>
+          <ul>
+            <li>
+              Led the development of a <strong>Dynamic Course Landing Platform</strong> built with
+              Angular.
+            </li>
+            <li>
+              Implemented a fully dynamic course page where changing JSON data allows reusing the
+              same layout.
+            </li>
+            <li>
+              Collaborated with stakeholders, defined requirements and priorities, and coordinated
+              delivery as Project Manager.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="job-title">Freelance Full-Stack Developer</div>
+          <div class="job-meta">
+            Self-employed &mdash; Remote &mdash;
+            <!-- e.g. 2023 &ndash; 2024 -->
+          </div>
+          <ul>
+            <li>
+              Designed and developed a SaaS system for retail management: point of sale, stock,
+              debts and suppliers.
+            </li>
+            <li>
+              System currently used by 6 companies with more than 20 points of sale in production.
+            </li>
+            <li>
+              Implemented multi-tenant logic, reporting and core business workflows for day-to-day
+              operations.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Projects</h3>
+
+        <div>
+          <div class="job-title">Dynamic Course Landing Platform</div>
+          <div class="job-meta">Personal / Freelance Project &mdash; Angular</div>
+          <ul>
+            <li>Single-page application to advertise online or in-person courses.</li>
+            <li>
+              Content (texts, images, pricing, schedule) driven by JSON configuration, enabling
+              reuse for multiple courses.
+            </li>
+            <li>
+              Built with Angular, TypeScript, reusable components and a clear folder structure for
+              maintainability.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Education</h3>
+
+        <div>
+          <div class="edu-title">
+            University-Level Technical Degree in Programming (3-year program)
+          </div>
+          <div class="edu-meta">
+            Institution name &mdash; City, Country &mdash;
+            <!-- graduation year -->
+          </div>
+        </div>
+
+        <div>
+          <div class="edu-title">Web Development with Angular</div>
+          <div class="edu-meta">
+            CodeFactory &mdash; Vienna, Austria &mdash; Expected completion: December 2025
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Technical Skills</h3>
+        <div class="tags">
+          <span class="tag">Angular</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Git</span>
+          <span class="tag">Docker</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Soft Skills</h3>
+        <div class="tags">
+          <span class="tag">Leadership</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Problem-solving</span>
+          <span class="tag">Adaptability</span>
+          <span class="tag">Time management</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Languages</h3>
+        <div class="tags">
+          <span class="tag">Spanish &mdash; Native</span>
+          <span class="tag">English &mdash; B2</span>
+          <span class="tag">German &mdash; A2</span>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

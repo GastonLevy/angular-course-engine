@@ -1,0 +1,141 @@
+{
+  "hero": {
+    "title": "Build Robust APIs with Symfony & PHP",
+    "text": "Learn how to design, build and deploy secure REST APIs using Symfony, modern PHP and best backend practices.",
+    "buttonText": "View Backend Track",
+    "buttonLink": "#price-offers",
+    "imageUrl": "assets/hero-backend.png",
+    "imageAlt": "Backend developer working with Symfony and APIs"
+  },
+  "courseFormats": {
+    "heading": "Backend Course Types",
+    "subheading": "From fundamentals to production-ready APIs and authentication with Symfony.",
+    "formats": [
+      {
+        "title": "Backend Essentials",
+        "features": [
+          "Modern PHP fundamentals",
+          "Object-oriented programming concepts",
+          "Intro to HTTP and REST APIs"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+      },
+      {
+        "title": "Symfony APIs",
+        "features": [
+          "Building REST APIs with Symfony",
+          "Routing, controllers and entities",
+          "JSON responses and validation"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "Production Backend",
+        "features": [
+          "Authentication and authorization",
+          "Error handling and logging",
+          "Deployment and environment configuration"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-primary",
+        "cardClass": "border-primary",
+        "headerClass": "text-bg-primary border-primary"
+      }
+    ]
+  },
+  "priceOffers": {
+    "heading": "Backend Plans",
+    "subheading": "Choose the depth of backend and API knowledge you want to achieve with Symfony.",
+    "offers": [
+      {
+        "title": "Backend Basics",
+        "price": 29,
+        "currency": "€",
+        "period": "/mo",
+        "features": ["Core PHP and OOP", "Intro to simple APIs", "Community support channel"],
+        "buttonText": "Sign up",
+        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+      },
+      {
+        "title": "Symfony API Developer",
+        "price": 69,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Complete Symfony API course",
+          "Database integration and migrations",
+          "Hands-on API projects"
+        ],
+        "buttonText": "Get started",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "Backend Production Pro",
+        "price": 119,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Advanced security and auth",
+          "Performance and scaling strategies",
+          "1:1 mentoring and project review"
+        ],
+        "buttonText": "Contact us",
+        "buttonClass": "w-100 btn btn-lg btn-primary",
+        "cardClass": "border-primary",
+        "headerClass": "text-bg-primary border-primary"
+      }
+    ]
+  },
+  "teachers": [
+    {
+      "name": "Thomas Richter",
+      "title": "Symfony Backend Lead",
+      "description": "Designs and maintains large-scale backend systems with Symfony and modern PHP. Focused on teaching clean, reliable and secure backend code.",
+      "imageUrl": "assets/teacher-backend1.jpg",
+      "imageAlt": "Thomas Richter"
+    },
+    {
+      "name": "Isabel Costa",
+      "title": "API & Security Engineer",
+      "description": "Specialist in API design, authentication, authorization and secure communication. Helps students avoid common security pitfalls.",
+      "imageUrl": "assets/teacher-backend2.jpg",
+      "imageAlt": "Isabel Costa"
+    },
+    {
+      "name": "Jonas Weber",
+      "title": "DevOps & Backend Mentor",
+      "description": "Experienced in CI/CD, containerization and cloud deployments. Guides students on how to bring Symfony APIs to production safely.",
+      "imageUrl": "assets/teacher-backend3.jpg",
+      "imageAlt": "Jonas Weber"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "PHP",
+      "iconUrl": "assets/php.png",
+      "iconAlt": "PHP"
+    },
+    {
+      "name": "Symfony",
+      "iconUrl": "assets/symfony.png",
+      "iconAlt": "Symfony"
+    },
+    {
+      "name": "REST APIs",
+      "iconUrl": "assets/api.png",
+      "iconAlt": "REST APIs"
+    },
+    {
+      "name": "Databases",
+      "iconUrl": "assets/database.png",
+      "iconAlt": "Database"
+    },
+    {
+      "name": "Docker",
+      "iconUrl": "assets/docker.png",
+      "iconAlt": "Docker"
+    }
+  ]
+}

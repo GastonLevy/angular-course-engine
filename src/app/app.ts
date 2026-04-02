@@ -1,7 +1,9 @@
-import { Component, signal } from '@angular/core';
+// src/app/app.ts
+import { Component, signal, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './core/navbar/navbar';
 import { Footer } from './core/footer/footer';
+import { AppConfigService } from './services/app-config.service';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +13,10 @@ import { Footer } from './core/footer/footer';
 })
 export class App {
   protected readonly title = signal('app');
+
+  private readonly configService = inject(AppConfigService);
+
+  rotateConfig() {
+    this.configService.rotateConfig();
+  }
 }

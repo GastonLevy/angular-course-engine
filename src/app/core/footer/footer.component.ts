@@ -1,13 +1,13 @@
 import { Component, Input } from '@angular/core';
-import { FooterColumn } from './footer.types';
 
 @Component({
   selector: 'app-footer',
-  templateUrl: './footer.html',
-  styleUrl: './footer.css',
+  standalone: true,
+  templateUrl: './footer.component.html',
+  styleUrl: './footer.component.css',
 })
-export class Footer {
-  @Input() columns: FooterColumn[] = [
+export class FooterComponent {
+  @Input() columns = [
     {
       items: [
         { type: 'title', text: 'Info' },

@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" [href]="items[0].href">
+      {{ items[0].text }}
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        @for (item of items; track item.text) {
+          @if (item.type === 'link') {
+            <li class="nav-item">
+              @if (item.href.startsWith('#')) {
+                <a class="nav-link" [href]="item.href">
+                  {{ item.text }}
+                </a>
+              } @else {
+                <a class="nav-link" [routerLink]="item.href">
+                  {{ item.text }}
+                </a>
+              }
+            </li>
+          }
+        }
+      </ul>
+
+      @if (items.at(-1)?.type === 'button') {
+        <a [href]="items.at(-1)?.href" [ngClass]="items.at(-1)?.classes">
+          {{ items.at(-1)?.text }}
+        </a>
+      }
+    </div>
+  </div>
+</nav>

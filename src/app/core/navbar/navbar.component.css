@@ -1,0 +1,51 @@
+:host {
+    display: block;
+}
+
+.navbar {
+    background-color: rgba(15, 26, 26, 0.92);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    color: var(--text);
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+}
+
+.navbar-brand:hover {
+    color: var(--text);
+}
+
+.nav-link {
+    color: var(--text-muted);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+    color: var(--text);
+}
+
+.navbar-toggler {
+    border: 1px solid var(--border);
+    padding: 0.4rem 0.65rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: var(--primary);
+}
+
+.navbar-toggler-icon {
+    filter: invert(92%) sepia(10%) saturate(180%) hue-rotate(334deg) brightness(103%) contrast(91%);
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        gap: 0.5rem;
+    }
+}

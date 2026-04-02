@@ -1,14 +1,14 @@
-<section id="tech" class="py-5 bg-light">
+<section id="tech" class="tech-section py-4">
   <div class="container">
     <h2 class="text-center mb-4">Technologies You Will Learn</h2>
 
     <div class="row g-3 justify-content-center">
       @for (tech of technologies; track tech.name) {
-        <div class="col-6 col-md-4 col-lg-2">
-          <div class="border rounded text-center py-3 h-100">
-            <span class="fw-bold">{{ tech.name }}</span>
-          </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="tech-item text-center h-100">
+          <span>{{ tech.name }}</span>
         </div>
+      </div>
       }
     </div>
   </div>

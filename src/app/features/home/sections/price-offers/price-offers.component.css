@@ -1,0 +1,81 @@
+:host {
+    display: block;
+}
+
+.offers-section {
+    color: var(--text);
+}
+
+.offers-section h2 {
+    color: var(--text);
+}
+
+.subtitle {
+    color: var(--text-muted);
+    opacity: 0.9;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid var(--border);
+}
+
+.card-header h3 {
+    color: var(--text);
+}
+
+.pricing-card-title {
+    color: var(--text);
+}
+
+.price-value {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.price-period {
+    color: var(--text-muted);
+    opacity: 0.9;
+    margin-left: 0.25rem;
+}
+
+.card-body li {
+    color: var(--text);
+    opacity: 0.85;
+    font-size: 0.95rem;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+    background-color: #006d68;
+    border-color: #006d68;
+    color: #fff;
+    box-shadow: none;
+}

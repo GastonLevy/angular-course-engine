@@ -1,0 +1,43 @@
+.hero-section {
+    color: var(--text);
+}
+
+/* Título */
+.hero-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* Texto */
+.hero-text {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 480px;
+}
+
+/* Botón */
+.hero-section .btn-primary {
+    padding: 0.6rem 1.4rem;
+    font-weight: 500;
+}
+
+/* Imagen */
+.hero-image {
+    max-height: 320px;
+    object-fit: contain;
+    opacity: 0.95;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin: 0 auto;
+    }
+}

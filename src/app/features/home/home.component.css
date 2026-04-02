@@ -1,0 +1,18 @@
+:host {
+    display: block;
+}
+
+.home-page {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.home-section {
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        padding: 1.5rem 0;
+    }
+}

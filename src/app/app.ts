@@ -3,7 +3,7 @@ import { Component, signal, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './core/navbar/navbar';
 import { Footer } from './core/footer/footer';
-import { AppConfigService } from './services/app-config.service';
+import { AppConfigService } from './data-access/course-catalog.service';
 
 @Component({
   selector: 'app-root',

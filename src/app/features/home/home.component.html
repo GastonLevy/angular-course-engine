@@ -1,0 +1,11 @@
+@if (catalog(); as catalog) {
+  <app-hero [hero]="catalog.hero"></app-hero>
+
+  <app-tech [technologies]="catalog.technologies"></app-tech>
+
+  <app-teacher [teachers]="catalog.teachers"></app-teacher>
+
+  <app-course-formats [config]="catalog.courseFormats"></app-course-formats>
+
+  <app-price-offers [config]="catalog.priceOffers"></app-price-offers>
+}

@@ -1,16 +1,14 @@
-// src/app/config/app-config.service.ts
 import { Injectable, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { AppConfig } from '../config/app-config.model';
+import { CourseCatalog } from '../shared/models/course-catalog.model';
 
 @Injectable({ providedIn: 'root' })
-export class AppConfigService {
+export class CourseCatalogService {
   private http = inject(HttpClient);
 
-  private readonly _config = signal<AppConfig | null>(null);
-  readonly config = this._config.asReadonly();
+  private readonly _catalog = signal<CourseCatalog | null>(null);
+  readonly catalog = this._catalog.asReadonly();
 
-  // 👇 nombres exactos de los archivos SIN el .json
   private readonly presets = [
     'course-fullstack-angular-symfony',
     'course-frontend-angular',
@@ -27,11 +25,11 @@ export class AppConfigService {
     const key = this.presets[this.currentIndex()];
     const url = `assets/${key}.json`;
 
-    this.http.get<AppConfig>(url).subscribe({
-      next: (cfg) => this._config.set(cfg),
+    this.http.get<CourseCatalog>(url).subscribe({
+      next: (cfg) => this._catalog.set(cfg),
       error: (err) => {
-        console.error('Error loading config', err);
-        this._config.set(null);
+        console.error('Error loading catalog', err);
+        this._catalog.set(null);
       },
     });
   }

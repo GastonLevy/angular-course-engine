@@ -7,9 +7,15 @@
     --border: rgba(240, 237, 229, 0.1);
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
 /* Base */
 body {
-    background-color: var(--background);
     color: var(--text);
 }
 
@@ -22,13 +28,19 @@ body {
 }
 
 /* Botones */
-.btn-primary {
+.btn.btn-primary {
     background-color: var(--primary);
-    border: none;
+    border-color: var(--primary);
+    color: #fff;
 }
 
-.btn-primary:hover {
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
     background-color: #006d68;
+    border-color: #006d68;
+    color: #fff;
+    box-shadow: none;
 }
 
 /* Texto secundario */

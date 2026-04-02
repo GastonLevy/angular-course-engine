@@ -1,0 +1,78 @@
+.footer {
+    background-color: var(--surface);
+    border-top: 1px solid var(--border);
+    color: var(--text);
+}
+
+.footer-title {
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    color: var(--text-muted);
+}
+
+.footer-links li+li {
+    margin-top: 0.75rem;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: var(--text);
+}
+
+.footer .form-control {
+    background-color: rgba(240, 237, 229, 0.04);
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.footer .form-control::placeholder {
+    color: var(--text-muted);
+}
+
+.footer .form-control:focus {
+    background-color: rgba(240, 237, 229, 0.06);
+    border-color: var(--primary);
+    color: var(--text);
+    box-shadow: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border);
+}
+
+.footer-bottom p {
+    color: var(--text-muted);
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-links a:hover {
+    color: var(--text);
+    border-color: var(--primary);
+    background-color: rgba(0, 70, 67, 0.25);
+}
+
+.social-links i {
+    font-size: 1.1rem;
+}

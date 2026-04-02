@@ -1,94 +1,108 @@
 {
   "hero": {
-    "title": "Master Modern Frontend with Angular",
-    "text": "Build fast, accessible and beautiful web applications using Angular, TypeScript and solid UI/UX principles.",
+    "title": "Master Modern Frontend Development with Angular",
+    "text": "Learn how to build fast, accessible, and production-ready web applications with Angular, TypeScript, and modern UI engineering practices. Create polished interfaces, reusable components, and real-world projects that strengthen both your skills and your portfolio.",
     "buttonText": "Explore Frontend Track",
     "buttonLink": "#price-offers",
-    "imageUrl": "assets/hero-frontend.png",
-    "imageAlt": "Frontend developer working with Angular"
+    "imageUrl": "assets/hero_images/hero-frontend.png",
+    "imageAlt": "Frontend developer building a modern Angular application"
   },
   "courseFormats": {
     "heading": "Frontend Learning Paths",
-    "subheading": "Start from the basics or sharpen your Angular skills at an advanced level.",
+    "subheading": "Choose a learning path that matches your current level, your schedule, and the type of frontend developer you want to become.",
     "formats": [
       {
-        "title": "Angular Basics",
+        "title": "Angular Foundations",
         "features": [
-          "Fundamentals of HTML, CSS and TypeScript",
-          "Components, templates and data binding",
-          "Hands-on exercises in each module"
-        ],
-        "buttonText": "View details",
-        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
-      },
-      {
-        "title": "Advanced Angular",
-        "features": [
-          "Routing, forms and HTTP communication",
-          "State management and architecture patterns",
-          "Performance tuning and best practices"
+          "Core HTML, CSS, JavaScript, and TypeScript concepts",
+          "Angular components, templates, directives, and data binding",
+          "Hands-on exercises in every module",
+          "Responsive layouts with modern CSS techniques",
+          "Debugging basics and clean code habits",
+          "Best for beginners building a strong frontend base"
         ],
         "buttonText": "View details",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "UI/UX & Angular",
+        "title": "Advanced Angular Engineering",
         "features": [
-          "Design systems and components",
-          "Responsive layouts and accessibility",
-          "Real-world UI refactoring sessions"
+          "Routing, guards, forms, and HTTP communication",
+          "Component architecture and reusable UI patterns",
+          "RxJS, reactive thinking, and async data handling",
+          "State management and scalable project structure",
+          "Performance optimization and maintainability best practices",
+          "Best for developers who want to build real production apps"
         ],
         "buttonText": "View details",
-        "buttonClass": "w-100 btn btn-lg btn-primary",
-        "cardClass": "border-primary",
-        "headerClass": "text-bg-primary border-primary"
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "UI/UX with Angular",
+        "features": [
+          "Design systems and consistent component libraries",
+          "Accessible interfaces and responsive user experiences",
+          "UI refactoring sessions based on real project scenarios",
+          "Visual hierarchy, spacing, and frontend polish",
+          "Bridging design decisions with Angular implementation",
+          "Best for developers who want strong design-aware frontend skills"
+        ],
+        "buttonText": "View details",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
   "priceOffers": {
     "heading": "Frontend Plans",
-    "subheading": "Choose the plan that fits how deep you want to go into Angular and frontend development.",
+    "subheading": "Pick the plan that matches how deep you want to go into Angular, frontend architecture, and practical project work.",
     "offers": [
       {
         "title": "Starter Frontend",
-        "price": 19,
+        "price": 29,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "HTML, CSS and basic JavaScript",
-          "Intro to Angular components",
-          "Community support"
+          "HTML, CSS, and JavaScript essentials",
+          "Introduction to Angular components and templates",
+          "Basic TypeScript for frontend development",
+          "Structured exercises and guided mini-projects",
+          "Community support",
+          "Access to recorded lessons and starter materials"
         ],
         "buttonText": "Sign up",
-        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
         "title": "Angular Pro",
-        "price": 59,
+        "price": 69,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Full Angular curriculum",
-          "Code reviews and live sessions",
-          "Access to all frontend projects"
+          "Complete Angular curriculum from fundamentals to advanced topics",
+          "Routing, reactive forms, API integration, and reusable architecture",
+          "Live coding sessions and practical frontend challenges",
+          "Code reviews and mentor feedback",
+          "Access to all guided frontend projects",
+          "Certificate of completion for your portfolio"
         ],
         "buttonText": "Get started",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
         "title": "UI/UX & Angular Expert",
-        "price": 99,
+        "price": 109,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Design-focused Angular projects",
+          "Design-focused Angular projects with production-style workflows",
+          "Advanced UI composition and scalable component systems",
+          "Accessibility, responsiveness, and interface polish",
           "Mentorship from senior frontend engineers",
-          "Portfolio and code review sessions"
+          "Portfolio reviews and project feedback sessions",
+          "Career-oriented support for frontend job readiness"
         ],
         "buttonText": "Talk with us",
-        "buttonClass": "w-100 btn btn-lg btn-primary",
-        "cardClass": "border-primary",
-        "headerClass": "text-bg-primary border-primary"
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
@@ -96,50 +110,70 @@
     {
       "name": "Anna Müller",
       "title": "Lead Angular Engineer",
-      "description": "Expert in Angular, TypeScript and scalable frontend architectures. Helps students write clean, maintainable and testable frontend code.",
+      "description": "Anna specializes in Angular, TypeScript, and scalable frontend architecture. She helps students understand how to write clean, maintainable, and testable code that reflects real engineering standards.",
       "imageUrl": "assets/teacher-frontend1.jpg",
-      "imageAlt": "Anna Müller"
+      "imageAlt": "Anna Müller, lead Angular engineer"
     },
     {
       "name": "David Rossi",
       "title": "UI/UX & Frontend Specialist",
-      "description": "Combines design and frontend development to create beautiful, accessible user interfaces with Angular and modern CSS.",
+      "description": "David combines interface design and frontend development to help students build polished, accessible, and user-focused applications with Angular and modern CSS workflows.",
       "imageUrl": "assets/teacher-frontend2.jpg",
-      "imageAlt": "David Rossi"
+      "imageAlt": "David Rossi, UI and frontend specialist"
     },
     {
       "name": "Elena Novak",
       "title": "Frontend Mentor",
-      "description": "Guides students through real-world projects, code reviews and pair programming to build confidence as Angular developers.",
+      "description": "Elena guides students through real project scenarios, pair programming, and code review sessions so they can grow from learning syntax to thinking like confident frontend developers.",
       "imageUrl": "assets/teacher-frontend3.jpg",
-      "imageAlt": "Elena Novak"
+      "imageAlt": "Elena Novak, frontend mentor"
     }
   ],
   "technologies": [
     {
-      "name": "HTML",
-      "iconUrl": "assets/html.png",
-      "iconAlt": "HTML"
+      "name": "HTML5",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "iconAlt": "HTML5 logo"
     },
     {
-      "name": "CSS",
-      "iconUrl": "assets/css.png",
-      "iconAlt": "CSS"
+      "name": "CSS3",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "iconAlt": "CSS3 logo"
     },
     {
       "name": "JavaScript",
-      "iconUrl": "assets/js.png",
-      "iconAlt": "JavaScript"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "iconAlt": "JavaScript logo"
     },
     {
       "name": "TypeScript",
-      "iconUrl": "assets/ts.png",
-      "iconAlt": "TypeScript"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "iconAlt": "TypeScript logo"
     },
     {
       "name": "Angular",
-      "iconUrl": "assets/angular.png",
-      "iconAlt": "Angular"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+      "iconAlt": "Angular logo"
+    },
+    {
+      "name": "RxJS",
+      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/reactivex.svg",
+      "iconAlt": "RxJS logo"
+    },
+    {
+      "name": "Bootstrap",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      "iconAlt": "Bootstrap logo"
+    },
+    {
+      "name": "Git",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "iconAlt": "Git logo"
+    },
+    {
+      "name": "GitHub",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "iconAlt": "GitHub logo"
     }
   ]
 }

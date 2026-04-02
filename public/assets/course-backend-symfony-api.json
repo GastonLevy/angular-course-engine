@@ -1,90 +1,108 @@
 {
   "hero": {
-    "title": "Build Robust APIs with Symfony & PHP",
-    "text": "Learn how to design, build and deploy secure REST APIs using Symfony, modern PHP and best backend practices.",
-    "buttonText": "View Backend Track",
+    "title": "Build Scalable APIs with Symfony & Modern PHP",
+    "text": "Learn how to design, build, and deploy secure, scalable REST APIs using Symfony and modern PHP. Understand real backend architecture, authentication systems, and production-ready workflows used in professional environments.",
+    "buttonText": "Explore Backend Track",
     "buttonLink": "#price-offers",
-    "imageUrl": "assets/hero-backend.png",
-    "imageAlt": "Backend developer working with Symfony and APIs"
+    "imageUrl": "assets/hero_images/hero-backend.png",
+    "imageAlt": "Backend developer designing APIs with Symfony and PHP"
   },
   "courseFormats": {
-    "heading": "Backend Course Types",
-    "subheading": "From fundamentals to production-ready APIs and authentication with Symfony.",
+    "heading": "Backend Learning Paths",
+    "subheading": "From core PHP fundamentals to production-grade APIs, security, and deployment workflows.",
     "formats": [
       {
         "title": "Backend Essentials",
         "features": [
-          "Modern PHP fundamentals",
-          "Object-oriented programming concepts",
-          "Intro to HTTP and REST APIs"
-        ],
-        "buttonText": "More information",
-        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
-      },
-      {
-        "title": "Symfony APIs",
-        "features": [
-          "Building REST APIs with Symfony",
-          "Routing, controllers and entities",
-          "JSON responses and validation"
+          "Modern PHP fundamentals and syntax",
+          "Object-oriented programming and clean code principles",
+          "HTTP fundamentals and REST API basics",
+          "Working with JSON and request/response lifecycle",
+          "Debugging and error handling fundamentals",
+          "Best for beginners entering backend development"
         ],
         "buttonText": "More information",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "Production Backend",
+        "title": "Symfony API Development",
         "features": [
-          "Authentication and authorization",
-          "Error handling and logging",
-          "Deployment and environment configuration"
+          "Building REST APIs using Symfony framework",
+          "Routing, controllers, services, and dependency injection",
+          "Database integration with Doctrine ORM and migrations",
+          "Validation, serialization, and structured responses",
+          "API architecture and clean project organization",
+          "Best for developers building real backend applications"
         ],
         "buttonText": "More information",
-        "buttonClass": "w-100 btn btn-lg btn-primary",
-        "cardClass": "border-primary",
-        "headerClass": "text-bg-primary border-primary"
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "Production Backend Engineering",
+        "features": [
+          "Authentication and authorization (JWT, roles, permissions)",
+          "Security best practices and common vulnerability prevention",
+          "Error handling, logging, and monitoring strategies",
+          "Docker, environment configuration, and deployment workflows",
+          "Scalability, performance, and maintainability patterns",
+          "Best for developers aiming for production-level backend skills"
+        ],
+        "buttonText": "More information",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
   "priceOffers": {
     "heading": "Backend Plans",
-    "subheading": "Choose the depth of backend and API knowledge you want to achieve with Symfony.",
+    "subheading": "Select the level of backend depth, architecture knowledge, and production readiness you want to achieve.",
     "offers": [
       {
-        "title": "Backend Basics",
-        "price": 29,
-        "currency": "€",
-        "period": "/mo",
-        "features": ["Core PHP and OOP", "Intro to simple APIs", "Community support channel"],
-        "buttonText": "Sign up",
-        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
-      },
-      {
-        "title": "Symfony API Developer",
-        "price": 69,
+        "title": "Backend Foundations",
+        "price": 39,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Complete Symfony API course",
-          "Database integration and migrations",
-          "Hands-on API projects"
+          "Core PHP and object-oriented programming",
+          "Introduction to REST APIs and HTTP fundamentals",
+          "Basic Symfony project structure overview",
+          "Guided exercises and mini backend projects",
+          "Community support channel",
+          "Access to learning materials and recordings"
+        ],
+        "buttonText": "Sign up",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
+      },
+      {
+        "title": "Symfony API Developer",
+        "price": 79,
+        "currency": "€",
+        "period": "/mo",
+        "features": [
+          "Complete Symfony API development workflow",
+          "Doctrine ORM, database design, and migrations",
+          "Authentication and API security fundamentals",
+          "Hands-on backend projects with real use cases",
+          "Code reviews and mentor feedback",
+          "Certificate of completion for your portfolio"
         ],
         "buttonText": "Get started",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
         "title": "Backend Production Pro",
-        "price": 119,
+        "price": 129,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Advanced security and auth",
-          "Performance and scaling strategies",
-          "1:1 mentoring and project review"
+          "Advanced API architecture and scalable design patterns",
+          "Secure authentication and authorization systems",
+          "Docker, CI/CD, and deployment pipelines",
+          "Performance optimization and monitoring strategies",
+          "1:1 mentorship sessions and project reviews",
+          "Career guidance for backend roles and interviews"
         ],
-        "buttonText": "Contact us",
-        "buttonClass": "w-100 btn btn-lg btn-primary",
-        "cardClass": "border-primary",
-        "headerClass": "text-bg-primary border-primary"
+        "buttonText": "Apply now",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
@@ -92,50 +110,65 @@
     {
       "name": "Thomas Richter",
       "title": "Symfony Backend Lead",
-      "description": "Designs and maintains large-scale backend systems with Symfony and modern PHP. Focused on teaching clean, reliable and secure backend code.",
+      "description": "Thomas designs and maintains large-scale backend systems using Symfony and modern PHP. He focuses on teaching clean architecture, reliable APIs, and production-ready backend practices.",
       "imageUrl": "assets/teacher-backend1.jpg",
-      "imageAlt": "Thomas Richter"
+      "imageAlt": "Thomas Richter, Symfony backend lead"
     },
     {
       "name": "Isabel Costa",
       "title": "API & Security Engineer",
-      "description": "Specialist in API design, authentication, authorization and secure communication. Helps students avoid common security pitfalls.",
+      "description": "Isabel specializes in secure API design, authentication, and authorization. She helps students understand real-world security challenges and how to build robust backend systems.",
       "imageUrl": "assets/teacher-backend2.jpg",
-      "imageAlt": "Isabel Costa"
+      "imageAlt": "Isabel Costa, API and security engineer"
     },
     {
       "name": "Jonas Weber",
       "title": "DevOps & Backend Mentor",
-      "description": "Experienced in CI/CD, containerization and cloud deployments. Guides students on how to bring Symfony APIs to production safely.",
+      "description": "Jonas brings strong experience in Docker, CI/CD, and cloud deployments. He teaches how to move Symfony applications from development to stable production environments.",
       "imageUrl": "assets/teacher-backend3.jpg",
-      "imageAlt": "Jonas Weber"
+      "imageAlt": "Jonas Weber, DevOps and backend mentor"
     }
   ],
   "technologies": [
     {
       "name": "PHP",
-      "iconUrl": "assets/php.png",
-      "iconAlt": "PHP"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "iconAlt": "PHP logo"
     },
     {
       "name": "Symfony",
-      "iconUrl": "assets/symfony.png",
-      "iconAlt": "Symfony"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg",
+      "iconAlt": "Symfony logo"
     },
     {
       "name": "REST APIs",
-      "iconUrl": "assets/api.png",
-      "iconAlt": "REST APIs"
+      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openapiinitiative.svg",
+      "iconAlt": "REST API"
     },
     {
-      "name": "Databases",
-      "iconUrl": "assets/database.png",
-      "iconAlt": "Database"
+      "name": "MySQL",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "iconAlt": "MySQL"
+    },
+    {
+      "name": "Doctrine ORM",
+      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/databricks.svg",
+      "iconAlt": "Doctrine ORM"
     },
     {
       "name": "Docker",
-      "iconUrl": "assets/docker.png",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       "iconAlt": "Docker"
+    },
+    {
+      "name": "JWT Auth",
+      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jsonwebtokens.svg",
+      "iconAlt": "JWT"
+    },
+    {
+      "name": "Git",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "iconAlt": "Git"
     }
   ]
 }

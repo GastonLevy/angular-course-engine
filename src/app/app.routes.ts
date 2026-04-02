@@ -7,11 +7,13 @@ export const routes: Routes = [
   },
   {
     path: 'about-us',
-    loadComponent: () => import('./pages/about-us/about-us').then((m) => m.AboutUs),
+    loadComponent: () =>
+      import('./pages/about-us/about-us.component').then((m) => m.AboutUsComponent),
   },
   {
     path: 'contact',
-    loadComponent: () => import('./pages/contact/contact').then((m) => m.Contact),
+    loadComponent: () =>
+      import('./pages/contact/contact.component').then((m) => m.ContactComponent),
   },
   {
     path: '**',

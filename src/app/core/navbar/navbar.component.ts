@@ -6,9 +6,9 @@ import { NgClass } from '@angular/common';
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, NgClass],
-  templateUrl: './navbar.html',
-  styleUrl: './navbar.css',
+  imports: [RouterLink, NgClass],
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
   items: NavbarItem[] = [

@@ -1,0 +1,67 @@
+:host {
+    display: block;
+}
+
+.course-formats {
+    color: var(--text);
+}
+
+.course-formats h2 {
+    color: var(--text);
+}
+
+.course-formats p {
+    color: var(--text-muted);
+    opacity: 0.8;
+}
+
+/* Cards */
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid var(--border);
+}
+
+.card-header h3 {
+    color: var(--text);
+}
+
+/* Contenido */
+.card-body li {
+    color: var(--text);
+    opacity: 0.85;
+    font-size: 0.95rem;
+}
+
+/* Botón */
+.btn {
+    margin-top: auto;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #006d68;
+}
+
+.subtitle {
+    color: var(--text-muted);
+    opacity: 0.9;
+    max-width: 500px;
+    margin: 0 auto;
+}

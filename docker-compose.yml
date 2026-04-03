@@ -3,19 +3,15 @@ services:
     image: node:20
     container_name: angular_landing_page
     working_dir: /app
+    restart: unless-stopped
     volumes:
       - ./:/app
-    command: >
-      sh -c "
-      npm install -g @angular/cli &&
-      if [ ! -f package.json ]; then
-        ng new app --directory . --defaults --skip-git;
-      fi &&
-      npm install &&
-      npm install bootstrap @popperjs/core &&
-      npx ng serve --host 0.0.0.0 --poll=2000
-      "
+      - angular_node_modules:/app/node_modules
     ports:
-      - "4200:4200"
+      - '4200:4200'
     environment:
-      - CHOKIDAR_USEPOLLING=true
+      CHOKIDAR_USEPOLLING: 'true'
+    command: sh -c "npm install && npx ng serve --host 0.0.0.0 --poll=2000"
+
+volumes:
+  angular_node_modules:

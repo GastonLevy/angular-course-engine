@@ -1,0 +1,115 @@
+:host {
+    display: block;
+}
+
+.home-wrapper {
+    position: relative;
+}
+
+.home-page {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.home-section {
+    padding: 2rem 0;
+}
+
+.sidebar {
+    width: max-content;
+    min-width: 220px;
+    max-width: 320px;
+    position: fixed;
+    top: 100px;
+    left: 2rem;
+    z-index: 10;
+}
+
+.sidebar>div {
+    background: linear-gradient(145deg,
+            rgba(255, 255, 255, 0.04),
+            rgba(255, 255, 255, 0.01));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1rem 1.1rem;
+    border-radius: 0.75rem;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar h5 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+}
+
+/* separación + divisor */
+.course-list {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    position: relative;
+    padding-top: 0.75rem;
+}
+
+.course-list::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    margin-bottom: 0.75rem;
+}
+
+/* items */
+.course-list a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.35;
+
+    padding: 0.45rem 0.7rem;
+    border-radius: 0.5rem;
+
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid transparent;
+
+    transition: all 0.2s ease;
+}
+
+.course-list a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.08);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        padding: 1.5rem 0;
+    }
+}

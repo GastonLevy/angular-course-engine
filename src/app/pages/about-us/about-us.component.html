@@ -1,0 +1,28 @@
+<section class="about-section py-5">
+  <div class="container">
+    <h1 class="about-title mb-4 text-center">About Us</h1>
+
+    <div class="card about-intro mb-5 shadow-sm border-0">
+      <div class="card-body">
+        <p class="mb-0">
+          We are <strong>FrontEnd Titans</strong>, a development group that built this project with
+          the ability to generate a fully customizable course description page. Each section can be
+          dynamically modified depending on the course requirements.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      @for (item of sections; track item.title) {
+      <div class="col-12 col-md-6">
+        <div class="card about-card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h4 class="card-title">{{ item.title }}</h4>
+            <p class="card-text mb-0">{{ item.text }}</p>
+          </div>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>

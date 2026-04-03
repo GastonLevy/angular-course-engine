@@ -1,0 +1,23 @@
+<section id="teacher" class="teacher-section py-4">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Instructors</h2>
+
+    <div class="row g-3">
+      @for (teacher of teachers; track teacher.name) {
+      <div class="col-12 col-md-4">
+        <div class="teacher-card text-center">
+
+          <img [src]="teacher.imageUrl" [alt]="teacher.imageAlt" class="teacher-img mb-3" />
+
+          <h3 class="fw-semibold mb-1">{{ teacher.name }}</h3>
+          <p class="teacher-role mb-2">{{ teacher.title }}</p>
+          <p class="teacher-description">
+            {{ teacher.description }}
+          </p>
+
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>

@@ -1,158 +1,192 @@
 {
   "hero": {
-    "title": "Become a Full-Stack Angular & Symfony Developer",
-    "text": "Master modern front-end with Angular and robust back-end with Symfony to build complete, production-ready web applications.",
-    "buttonText": "Start Full-Stack Journey",
+    "title": "Launch Your Career as a Full-Stack Angular & Symfony Developer",
+    "text": "Build modern, scalable web applications with a complete front-end and back-end workflow. Learn how to create polished Angular interfaces, secure Symfony APIs, and production-ready full-stack projects that reflect real industry standards.",
+    "buttonText": "Explore Programs",
     "buttonLink": "#price-offers",
-    "imageUrl": "assets/hero-fullstack.png",
-    "imageAlt": "Full-stack developer working on Angular and Symfony"
+    "imageUrl": "assets/hero_images/hero-fullstack.png",
+    "imageAlt": "Developer building a full-stack Angular and Symfony application"
   },
   "courseFormats": {
-    "heading": "Course Modes",
-    "subheading": "Choose the learning style that matches how you want to become a full-stack developer.",
+    "heading": "Learning Formats",
+    "subheading": "Choose the format that matches your schedule, learning style, and career goals.",
     "formats": [
       {
         "title": "Online Intensive",
         "features": [
-          "Live online Angular & Symfony classes",
-          "Code reviews and pair programming",
-          "Dedicated mentor support in chat"
+          "Live instructor-led Angular and Symfony sessions",
+          "Weekly coding challenges and guided exercises",
+          "Real-time Q&A and structured mentor support",
+          "Recorded classes available after every session",
+          "Pair programming and code review workshops",
+          "Best for students who want a fast-paced remote experience"
         ],
-        "buttonText": "More information",
-        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+        "buttonText": "Learn more",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
         "title": "On Campus",
         "features": [
-          "Full-time classes at school",
-          "Team projects simulating real companies",
-          "Direct support from senior instructors"
+          "Face-to-face classes with direct instructor interaction",
+          "Collaborative project work in small teams",
+          "Hands-on labs focused on production workflows",
+          "Daily feedback and classroom code review sessions",
+          "Networking with peers and mentors on site",
+          "Best for students who prefer structure and in-person learning"
         ],
-        "buttonText": "More information",
+        "buttonText": "Learn more",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "Hybrid",
+        "title": "Hybrid Flex",
         "features": [
-          "Mix on-site and remote classes",
-          "Flexible schedule for professionals",
-          "Access to all recordings and materials"
+          "Mix remote study with selected on-site workshops",
+          "Flexible schedule designed for working professionals",
+          "Access to recordings, exercises, and reusable code templates",
+          "Dedicated mentor office hours every week",
+          "Project-based learning with milestone tracking",
+          "Best for learners balancing study, work, and personal commitments"
         ],
-        "buttonText": "More information",
-        "buttonClass": "w-100 btn btn-lg btn-primary",
-        "cardClass": "border-primary",
-        "headerClass": "text-bg-primary border-primary"
+        "buttonText": "Learn more",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
   "priceOffers": {
-    "heading": "Full-Stack Programs",
-    "subheading": "Pick the intensity and support level that fits your goals and availability.",
+    "heading": "Programs & Pricing",
+    "subheading": "Choose the level of depth, mentorship, and career support that fits where you are now—and where you want to go next.",
     "offers": [
       {
-        "title": "Starter Full-Stack",
-        "price": 39,
+        "title": "Starter Path",
+        "price": 49,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Intro to HTML, CSS & JavaScript",
-          "Basics of Angular & PHP",
-          "Email support",
-          "Access to learning platform"
+          "Introduction to HTML, CSS, JavaScript, and Git",
+          "Fundamentals of TypeScript and Angular components",
+          "PHP basics and Symfony project structure overview",
+          "Self-paced exercises and guided mini-projects",
+          "Community support channel",
+          "Access to recorded lessons and learning materials"
         ],
-        "buttonText": "Sign up",
-        "buttonClass": "w-100 btn btn-lg btn-outline-dark"
+        "buttonText": "Start learning",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "Professional Full-Stack",
-        "price": 79,
+        "title": "Professional Path",
+        "price": 89,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Angular with TypeScript in depth",
-          "Symfony backend with REST APIs",
-          "Code reviews & mentor feedback",
-          "Priority support and Q&A sessions"
+          "Advanced Angular patterns and reactive architecture",
+          "Symfony controllers, services, forms, and validation",
+          "REST API design and front-end integration",
+          "Authentication, authorization, and secure workflows",
+          "Weekly code reviews with mentor feedback",
+          "Portfolio-ready full-stack project with deployment guidance"
         ],
         "buttonText": "Get started",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "Career Full-Stack",
-        "price": 129,
+        "title": "Career Accelerator",
+        "price": 149,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Real client-like full-stack projects",
-          "Advanced Angular patterns & state",
-          "Symfony, authentication & deployment",
-          "Career coaching & interview preparation"
+          "Enterprise-style Angular and Symfony project architecture",
+          "Testing strategy with unit, integration, and API testing",
+          "Docker, CI/CD, and deployment fundamentals",
+          "Team workflow with Git branching and pull requests",
+          "1:1 mentorship sessions and technical interview preparation",
+          "CV, portfolio, and job application support"
         ],
-        "buttonText": "Contact us",
-        "buttonClass": "w-100 btn btn-lg btn-primary",
-        "cardClass": "border-primary",
-        "headerClass": "text-bg-primary border-primary"
+        "buttonText": "Apply now",
+        "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
   "teachers": [
     {
       "name": "Laura Becker",
-      "title": "Senior Full-Stack Engineer (Angular & Symfony)",
-      "description": "Leads complex enterprise projects using Angular front-ends and Symfony backends. Passionate about clean architecture, testing and mentoring new developers.",
-      "imageUrl": "assets/teacher-fullstack1.jpg",
-      "imageAlt": "Laura Becker"
+      "title": "Senior Full-Stack Engineer",
+      "description": "Laura has led multiple enterprise web platforms built with Angular and Symfony. She focuses on clean architecture, maintainable code, and helping students understand how professional teams structure real-world applications.",
+      "imageUrl": "assets/teachers_images/laura_becker.png",
+      "imageAlt": "Laura Becker, senior full-stack engineer"
     },
     {
       "name": "Miguel Alvarez",
       "title": "Frontend Architect",
-      "description": "Specialist in TypeScript, Angular, reactive patterns and scalable UI architectures. Focused on teaching real-world workflows and best practices.",
-      "imageUrl": "assets/teacher-fullstack2.jpg",
-      "imageAlt": "Miguel Alvarez"
+      "description": "Miguel specializes in TypeScript, Angular, state management, and scalable UI design. His teaching style is highly practical, helping students move from tutorials to production-ready front-end engineering.",
+      "imageUrl": "assets/teachers_images/miguel_alvarez.png",
+      "imageAlt": "Miguel Alvarez, frontend architect"
     },
     {
       "name": "Claire Dubois",
       "title": "Backend & DevOps Engineer",
-      "description": "Symfony and PHP expert with strong experience in REST APIs, authentication, CI/CD and cloud deployments. Helps students ship production-ready backends.",
-      "imageUrl": "assets/teacher-fullstack3.jpg",
-      "imageAlt": "Claire Dubois"
+      "description": "Claire brings deep experience in Symfony, API security, Docker, CI/CD, and deployment pipelines. She helps students understand how strong backend foundations support stable and scalable products.",
+      "imageUrl": "assets/teachers_images/claire_dubois.png",
+      "imageAlt": "Claire Dubois, backend and DevOps engineer"
     }
   ],
   "technologies": [
     {
-      "name": "HTML",
-      "iconUrl": "assets/html.png",
-      "iconAlt": "HTML"
+      "name": "HTML5",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "iconAlt": "HTML5 logo"
     },
     {
-      "name": "CSS",
-      "iconUrl": "assets/css.png",
-      "iconAlt": "CSS"
+      "name": "CSS3",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "iconAlt": "CSS3 logo"
     },
     {
       "name": "JavaScript",
-      "iconUrl": "assets/js.png",
-      "iconAlt": "JavaScript"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "iconAlt": "JavaScript logo"
     },
     {
       "name": "TypeScript",
-      "iconUrl": "assets/ts.png",
-      "iconAlt": "TypeScript"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "iconAlt": "TypeScript logo"
     },
     {
       "name": "Angular",
-      "iconUrl": "assets/angular.png",
-      "iconAlt": "Angular"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+      "iconAlt": "Angular logo"
+    },
+    {
+      "name": "Bootstrap",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      "iconAlt": "Bootstrap logo"
     },
     {
       "name": "PHP",
-      "iconUrl": "assets/php.png",
-      "iconAlt": "PHP"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "iconAlt": "PHP logo"
     },
     {
       "name": "Symfony",
-      "iconUrl": "assets/symfony.png",
-      "iconAlt": "Symfony"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg",
+      "iconAlt": "Symfony logo"
+    },
+    {
+      "name": "MySQL",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "iconAlt": "MySQL logo"
+    },
+    {
+      "name": "Docker",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      "iconAlt": "Docker logo"
+    },
+    {
+      "name": "Git",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+    {
+      "name": "GitHub",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
     }
   ]
 }

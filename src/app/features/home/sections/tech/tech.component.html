@@ -1,0 +1,16 @@
+<section id="tech" class="tech-section py-4">
+  <div class="container">
+    <h2 class="text-center mb-4">Technologies You Will Learn</h2>
+
+    <div class="row g-3 justify-content-center">
+      @for (tech of technologies; track tech.name) {
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="tech-item d-flex flex-column align-items-center justify-content-center h-100">
+          <img [src]="tech.iconUrl" [alt]="tech.iconAlt" class="tech-icon" />
+          <span>{{ tech.name }}</span>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>

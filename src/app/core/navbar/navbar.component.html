@@ -1,0 +1,56 @@
+<nav class="navbar sticky-top">
+  <div class="container navbar-container">
+    <a class="navbar-brand fw-bold" [href]="items[0].href">
+      {{ items[0].text }}
+    </a>
+
+    <ul class="navbar-nav navbar-nav-horizontal ms-auto align-items-center gap-2">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Courses
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end">
+          @for (course of courses(); track course.key) {
+          <li>
+            <a class="dropdown-item" href="#" (click)="$event.preventDefault(); selectCourse(course.key)"
+              [ngClass]="{ 'active': isActiveCourse(course.key) }">
+              {{ course.label }}
+            </a>
+          </li>
+          }
+        </ul>
+      </li>
+
+      @for (item of items; track item.text) {
+      @if (item.type === 'link') {
+      <li class="nav-item">
+        @if (item.href.startsWith('#')) {
+        <a class="nav-link" [href]="item.href">
+          {{ item.text }}
+        </a>
+        } @else {
+        <a class="nav-link" [routerLink]="item.href">
+          {{ item.text }}
+        </a>
+        }
+      </li>
+      }
+
+      @if (item.type === 'button') {
+      <li class="nav-item">
+        @if (item.href.startsWith('#')) {
+        <a [class]="item.classes" [href]="item.href">
+          {{ item.text }}
+        </a>
+        } @else {
+        <a [class]="item.classes" [routerLink]="item.href">
+          {{ item.text }}
+        </a>
+        }
+      </li>
+      }
+      }
+    </ul>
+  </div>
+</nav>

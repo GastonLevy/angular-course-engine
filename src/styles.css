@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #004643;
+    --background: #0f1a1a;
+    --surface: #1a2b2b;
+    --text: #F0EDE5;
+    --text-muted: #cfcac3;
+    --border: rgba(240, 237, 229, 0.1);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+/* Base */
+body {
+    color: var(--text);
+}
+
+/* Cards */
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+}
+
+/* Botones */
+.btn.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+    background-color: #006d68;
+    border-color: #006d68;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Texto secundario */
+.text-muted {
+    color: var(--text-muted) !important;
+}

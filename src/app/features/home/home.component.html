@@ -1,9 +1,30 @@
 @if (catalog(); as catalog) {
-<main class="home-page">
-  <app-hero [hero]="catalog.hero"></app-hero>
-  <app-tech [technologies]="catalog.technologies"></app-tech>
-  <app-teacher [teachers]="catalog.teachers"></app-teacher>
-  <app-course-formats [config]="catalog.courseFormats"></app-course-formats>
-  <app-price-offers [config]="catalog.priceOffers"></app-price-offers>
-</main>
+<div class="home-wrapper">
+  <!-- Sidebar 
+    <aside class="sidebar d-none d-lg-block">
+      <div>
+        <h5>Courses</h5>
+
+        <ul class="course-list">
+          @for (course of courses(); track course.key) {
+          <li>
+            <a href="#" (click)="$event.preventDefault(); selectCourse(course.key)"
+              [class.active]="isActiveCourse(course.key)">
+              {{ course.label }}
+            </a>
+          </li>
+          }
+        </ul>
+      </div>
+    </aside>
+  -->
+
+  <main class="home-page">
+    <app-hero [hero]="catalog.hero"></app-hero>
+    <app-tech [technologies]="catalog.technologies"></app-tech>
+    <app-teacher [teachers]="catalog.teachers"></app-teacher>
+    <app-course-formats [config]="catalog.courseFormats"></app-course-formats>
+    <app-price-offers [config]="catalog.priceOffers"></app-price-offers>
+  </main>
+</div>
 }

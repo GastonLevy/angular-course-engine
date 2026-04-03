@@ -111,21 +111,21 @@
       "name": "Laura Becker",
       "title": "Senior Full-Stack Engineer",
       "description": "Laura has led multiple enterprise web platforms built with Angular and Symfony. She focuses on clean architecture, maintainable code, and helping students understand how professional teams structure real-world applications.",
-      "imageUrl": "assets/teacher-fullstack1.jpg",
+      "imageUrl": "assets/teachers_images/laura_becker.png",
       "imageAlt": "Laura Becker, senior full-stack engineer"
     },
     {
       "name": "Miguel Alvarez",
       "title": "Frontend Architect",
       "description": "Miguel specializes in TypeScript, Angular, state management, and scalable UI design. His teaching style is highly practical, helping students move from tutorials to production-ready front-end engineering.",
-      "imageUrl": "assets/teacher-fullstack2.jpg",
+      "imageUrl": "assets/teachers_images/miguel_alvarez.png",
       "imageAlt": "Miguel Alvarez, frontend architect"
     },
     {
       "name": "Claire Dubois",
       "title": "Backend & DevOps Engineer",
       "description": "Claire brings deep experience in Symfony, API security, Docker, CI/CD, and deployment pipelines. She helps students understand how strong backend foundations support stable and scalable products.",
-      "imageUrl": "assets/teacher-fullstack3.jpg",
+      "imageUrl": "assets/teachers_images/claire_dubois.png",
       "imageAlt": "Claire Dubois, backend and DevOps engineer"
     }
   ],

@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
-import { NavbarItem } from './navbar.types';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { NgClass } from '@angular/common';
+import { NavbarItem } from './navbar.types';
+import { CourseCatalogService } from '../../data-access/course-catalog.service';
 
 @Component({
   selector: 'app-navbar',
@@ -11,21 +12,23 @@ import { NgClass } from '@angular/common';
   styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
+  private readonly catalogService = inject(CourseCatalogService);
+
+  readonly courses = this.catalogService.courses;
+  readonly currentCourseKey = this.catalogService.currentCourseKey;
+
   items: NavbarItem[] = [
     { type: 'logo', text: 'CodeFactory', href: '#course' },
 
-    { type: 'link', text: 'Course', href: '#course' },
-    { type: 'link', text: 'Teacher', href: '#teacher' },
-    { type: 'link', text: 'Technologies', href: '#tech' },
-    { type: 'link', text: 'News', href: '#news' },
     { type: 'link', text: 'About us', href: '/about-us' },
     { type: 'link', text: 'Contact', href: '/contact' },
-
-    {
-      type: 'button',
-      text: 'Register',
-      href: '#price-offers',
-      classes: 'btn btn-primary ms-lg-3',
-    },
   ];
+
+  selectCourse(courseKey: string): void {
+    this.catalogService.loadCourse(courseKey);
+  }
+
+  isActiveCourse(courseKey: string): boolean {
+    return this.currentCourseKey() === courseKey;
+  }
 }

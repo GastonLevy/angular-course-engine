@@ -111,21 +111,21 @@
       "name": "Thomas Richter",
       "title": "Symfony Backend Lead",
       "description": "Thomas designs and maintains large-scale backend systems using Symfony and modern PHP. He focuses on teaching clean architecture, reliable APIs, and production-ready backend practices.",
-      "imageUrl": "assets/teacher-backend1.jpg",
+      "imageUrl": "assets/teachers_images/thomas_richter.jpg",
       "imageAlt": "Thomas Richter, Symfony backend lead"
     },
     {
       "name": "Isabel Costa",
       "title": "API & Security Engineer",
       "description": "Isabel specializes in secure API design, authentication, and authorization. She helps students understand real-world security challenges and how to build robust backend systems.",
-      "imageUrl": "assets/teacher-backend2.jpg",
+      "imageUrl": "assets/teachers_images/isabel_costa.png",
       "imageAlt": "Isabel Costa, API and security engineer"
     },
     {
       "name": "Jonas Weber",
       "title": "DevOps & Backend Mentor",
       "description": "Jonas brings strong experience in Docker, CI/CD, and cloud deployments. He teaches how to move Symfony applications from development to stable production environments.",
-      "imageUrl": "assets/teacher-backend3.jpg",
+      "imageUrl": "assets/teachers_images/jonas_weber.webp",
       "imageAlt": "Jonas Weber, DevOps and backend mentor"
     }
   ],

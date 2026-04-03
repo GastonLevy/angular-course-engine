@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "key": "course-fullstack-angular-symfony",
+      "label": "Fullstack Angular + Symfony",
+      "file": "assets/course-fullstack-angular-symfony.json"
+    },
+    {
+      "key": "course-frontend-angular",
+      "label": "Frontend Angular",
+      "file": "assets/course-frontend-angular.json"
+    },
+    {
+      "key": "course-backend-symfony-api",
+      "label": "Backend Symfony API",
+      "file": "assets/course-backend-symfony-api.json"
+    }
+  ]
+}

@@ -23,4 +23,14 @@ export class HomeComponent {
   private readonly catalogService = inject(CourseCatalogService);
 
   readonly catalog = this.catalogService.catalog;
+  readonly courses = this.catalogService.courses;
+  readonly currentCourseKey = this.catalogService.currentCourseKey;
+
+  selectCourse(courseKey: string): void {
+    this.catalogService.loadCourse(courseKey);
+  }
+
+  isActiveCourse(courseKey: string): boolean {
+    return this.currentCourseKey() === courseKey;
+  }
 }

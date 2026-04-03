@@ -111,21 +111,21 @@
       "name": "Anna Müller",
       "title": "Lead Angular Engineer",
       "description": "Anna specializes in Angular, TypeScript, and scalable frontend architecture. She helps students understand how to write clean, maintainable, and testable code that reflects real engineering standards.",
-      "imageUrl": "assets/teacher-frontend1.jpg",
+      "imageUrl": "assets/teachers_images/anna_muller.png",
       "imageAlt": "Anna Müller, lead Angular engineer"
     },
     {
       "name": "David Rossi",
       "title": "UI/UX & Frontend Specialist",
       "description": "David combines interface design and frontend development to help students build polished, accessible, and user-focused applications with Angular and modern CSS workflows.",
-      "imageUrl": "assets/teacher-frontend2.jpg",
+      "imageUrl": "assets/teachers_images/david_rossi.png",
       "imageAlt": "David Rossi, UI and frontend specialist"
     },
     {
       "name": "Elena Novak",
       "title": "Frontend Mentor",
       "description": "Elena guides students through real project scenarios, pair programming, and code review sessions so they can grow from learning syntax to thinking like confident frontend developers.",
-      "imageUrl": "assets/teacher-frontend3.jpg",
+      "imageUrl": "assets/teachers_images/elena_novak.jpg",
       "imageAlt": "Elena Novak, frontend mentor"
     }
   ],

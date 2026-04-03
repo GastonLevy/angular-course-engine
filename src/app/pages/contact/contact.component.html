@@ -1,10 +1,10 @@
 <section class="contact-section py-5">
   <div class="container">
-    <h1 class="mb-4 text-center">Contact</h1>
+    <h1 class="contact-title mb-4 text-center">Contact</h1>
 
     <div class="row g-4 mb-5">
       <div class="col-lg-6">
-        <div class="card h-100 shadow-sm border-0">
+        <div class="card contact-intro h-100 shadow-sm border-0">
           <div class="card-body">
             <h3 class="card-title mb-3">Get in Touch</h3>
             <p class="mb-3">
@@ -20,9 +20,10 @@
       </div>
 
       <div class="col-lg-6">
-        <div class="card h-100 shadow-sm border-0">
+        <div class="card contact-form-card h-100 shadow-sm border-0">
           <div class="card-body">
             <h3 class="card-title mb-3">Contact Form</h3>
+
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
@@ -36,36 +37,32 @@
 
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea
-                  id="message"
-                  rows="3"
-                  class="form-control"
-                  placeholder="How can we help?"
-                ></textarea>
+                <textarea id="message" rows="4" class="form-control" placeholder="How can we help?"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary">Send message</button>
+              <button type="submit" class="btn contact-btn">Send message</button>
             </form>
           </div>
         </div>
       </div>
     </div>
 
-    <h2 class="mb-4 text-center">Team Members</h2>
+    <h2 class="team-title mb-4 text-center">Team Members</h2>
 
     <div class="row g-4">
       @for (member of team; track member.name) {
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm border-0 text-center">
-            <div class="card-body">
-              <h4 class="card-title mb-1">{{ member.name }}</h4>
-              <p class="mb-3">{{ member.description }}</p>
-              <a [href]="member.github" target="_blank" class="link-secondary text-decoration-none">
-                View GitHub profile
-              </a>
-            </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card team-card h-100 shadow-sm border-0 text-center">
+          <div class="card-body">
+            <h4 class="card-title mb-2">{{ member.name }}</h4>
+            <p class="member-description mb-3">{{ member.description }}</p>
+            <a [href]="member.github" target="_blank" rel="noopener noreferrer"
+              class="member-link text-decoration-none">
+              View GitHub profile
+            </a>
           </div>
         </div>
+      </div>
       }
     </div>
   </div>

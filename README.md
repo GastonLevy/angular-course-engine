@@ -1,59 +1,95 @@
-# App
+<h1 align="center">Dynamic Course Landing (Angular)</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
+<p align="center">
+  Reusable Angular landing page platform driven by JSON data.
+</p>
 
-## Development server
+<hr>
 
-To start a local development server, run:
+<h2>Overview</h2>
 
-```bash
-ng serve
-```
+<p>
+  This project is a dynamic course landing platform built with <strong>Angular</strong>.
+  Instead of creating a different landing page for each course, the application uses a
+  <strong>JSON-driven structure</strong> to render content dynamically through reusable sections and components.
+</p>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<p>
+  The main idea is simple: <strong>change the data, not the structure</strong>.
+  This makes the project flexible, scalable, and easy to adapt for different course offerings.
+</p>
 
-## Code scaffolding
+<hr>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<h2>Key Features</h2>
 
-```bash
-ng generate component component-name
-```
+<ul>
+  <li>Dynamic content rendering from a single JSON source</li>
+  <li>Reusable and modular section-based architecture</li>
+  <li>Standalone Angular components</li>
+  <li>Signals for reactive state management</li>
+  <li>Clean separation between data and UI</li>
+</ul>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<hr>
 
-```bash
-ng generate --help
-```
+<h2>Architecture</h2>
 
-## Building
+<p>
+  The application follows a simple and scalable structure:
+</p>
 
-To build the project run:
+<ul>
+  <li><strong>Data Layer:</strong> JSON catalog + service (CourseCatalogService)</li>
+  <li><strong>UI Layer:</strong> Section-based components (Hero, Teachers, Tech, Pricing, Formats)</li>
+  <li><strong>State Management:</strong> Angular signals</li>
+</ul>
 
-```bash
-ng build
-```
+<p>
+  Each section is independent and receives only the data it needs.
+</p>
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+<hr>
 
-## Running unit tests
+<h2>Tech Stack</h2>
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+<ul>
+  <li>Angular (standalone components, signals)</li>
+  <li>TypeScript</li>
+  <li>HTML / CSS</li>
+  <li>Bootstrap</li>
+</ul>
 
-```bash
-ng test
-```
+<hr>
 
-## Running end-to-end tests
+<h2>How It Works</h2>
 
-For end-to-end (e2e) testing, run:
+<ol>
+  <li>The application loads a course configuration from a JSON file</li>
+  <li>The catalog service exposes the data using signals</li>
+  <li>The Home component distributes the data to each section</li>
+  <li>Each section renders dynamically based on the provided data</li>
+</ol>
 
-```bash
-ng e2e
-```
+<hr>
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+<h2>Use Case</h2>
 
-## Additional Resources
+<p>
+  This project is designed for scenarios where multiple course landing pages are needed,
+  but maintaining separate codebases would be inefficient.
+</p>
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<p>
+  With this approach, new courses can be launched by simply updating the JSON structure,
+  without modifying the core application.
+</p>
+
+<hr>
+
+<h2>Project Status</h2>
+
+<p>
+  Initial version completed. Currently focused on UI improvements and visual refinement
+  for portfolio presentation.
+</p>

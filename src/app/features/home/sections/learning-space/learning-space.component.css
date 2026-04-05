@@ -1,0 +1,64 @@
+.learning-space-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: var(--text);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.learning-space-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.learning-space-title {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.learning-space-description {
+    color: var(--text-muted);
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.learning-space-feature-card {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background-color: rgba(255, 255, 255, 0.025);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    transition: border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.learning-space-feature-card:hover {
+    border-color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.04);
+    transform: translateY(-2px);
+}
+
+.learning-space-feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.55rem;
+    height: 1.55rem;
+    margin-top: 0.15rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #7fffb0;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 230, 118, 0.22);
+    flex-shrink: 0;
+}
+
+.learning-space-feature-text {
+    color: var(--text);
+    line-height: 1.5;
+}

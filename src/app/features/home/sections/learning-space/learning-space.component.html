@@ -1,0 +1,31 @@
+@if (learningSpace) {
+<section class="learning-space-section container py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-9">
+            <div class="text-center mb-4">
+                <h2 class="learning-space-title mb-3">
+                    {{ learningSpace.heading }}
+                </h2>
+
+                <p class="learning-space-description mb-0">
+                    {{ learningSpace.description }}
+                </p>
+            </div>
+            <div class="card learning-space-card">
+                <div class="row g-3">
+                    @for (feature of learningSpace.features; track $index) {
+                    <div class="col-md-6">
+                        <div class="learning-space-feature-card">
+                            <span class="learning-space-feature-icon">✓</span>
+                            <p class="learning-space-feature-text mb-0">
+                                {{ feature }}
+                            </p>
+                        </div>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+}

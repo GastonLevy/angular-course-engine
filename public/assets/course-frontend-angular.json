@@ -7,6 +7,64 @@
     "imageUrl": "assets/hero_images/hero-frontend.png",
     "imageAlt": "Frontend developer building a modern Angular application"
   },
+  "courseTopic": {
+    "heading": "What You Will Learn",
+    "description": "This frontend course is designed to help students build modern Angular applications with strong engineering foundations. It covers everything from core frontend concepts to scalable architecture, UI quality, and production-ready development practices.",
+    "learningPoints": [
+      "Build reusable Angular components and structured application layouts",
+      "Work with routing, forms, HTTP requests, and reactive patterns",
+      "Use TypeScript effectively in real frontend projects",
+      "Create responsive, accessible, and polished user interfaces",
+      "Apply maintainable architecture and frontend best practices"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Sophie Wagner",
+      "role": "Junior Frontend Developer",
+      "comment": "This course helped me finally understand Angular beyond the basics. The project structure and practical exercises made a huge difference."
+    },
+    {
+      "name": "Marco Bianchi",
+      "role": "Career Switcher",
+      "comment": "I liked that the course was not just about syntax. It showed how real frontend applications are built and improved over time."
+    }
+  ],
+  "videos": [
+    {
+      "title": "Course Introduction",
+      "url": "https://www.youtube.com/watch?v=example",
+      "thumbnailUrl": "assets/video_thumbnails/frontend-intro.png"
+    }
+  ],
+  "learningSpace": {
+    "heading": "Your Learning Environment",
+    "description": "The course includes a practical environment focused on real project work, guided exercises, and frontend development workflows used in professional teams.",
+    "features": [
+      "Hands-on Angular projects with guided implementation",
+      "Code reviews and mentor feedback",
+      "Access to project repositories and learning materials",
+      "Structured exercises for UI, architecture, and refactoring",
+      "Community support and collaborative learning"
+    ]
+  },
+  "news": [
+    {
+      "title": "New Module: Angular UI Architecture",
+      "description": "A new section has been added to help students design cleaner, more reusable frontend component structures.",
+      "date": "2026-03-18"
+    }
+  ],
+  "mainWebsiteLinks": [
+    {
+      "label": "Main Platform",
+      "url": "https://your-platform.com"
+    },
+    {
+      "label": "All Courses",
+      "url": "https://your-platform.com/courses"
+    }
+  ],
   "courseFormats": {
     "heading": "Frontend Learning Paths",
     "subheading": "Choose a learning path that matches your current level, your schedule, and the type of frontend developer you want to become.",

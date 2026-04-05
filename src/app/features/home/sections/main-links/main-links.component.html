@@ -1,0 +1,13 @@
+@if (links?.length) {
+<section class="main-links-section container py-3">
+    <div class="row g-3 justify-content-center">
+        @for (link of links; track $index) {
+        <div class="col-12 col-md-6">
+            <a class="main-link-card" [href]="link.url" target="_blank" rel="noopener">
+                {{ link.label }}
+            </a>
+        </div>
+        }
+    </div>
+</section>
+}

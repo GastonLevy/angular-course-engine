@@ -54,8 +54,52 @@ export interface Technology {
   iconAlt: string;
 }
 
+export interface CourseTopicConfig {
+  heading: string;
+  description: string;
+  learningPoints: string[];
+}
+
+export interface Testimonial {
+  name: string;
+  role?: string;
+  comment: string;
+  imageUrl?: string;
+  imageAlt?: string;
+}
+
+export interface VideoItem {
+  title: string;
+  url: string;
+  thumbnailUrl?: string;
+}
+
+export interface LearningSpaceConfig {
+  heading: string;
+  description: string;
+  features: string[];
+}
+
+export interface NewsItem {
+  title: string;
+  description: string;
+  date: string;
+  link?: string;
+}
+
+export interface MainWebsiteLink {
+  label: string;
+  url: string;
+}
+
 export interface CourseCatalog {
   hero: HeroConfig;
+  courseTopic: CourseTopicConfig;
+  testimonials: Testimonial[];
+  videos: VideoItem[];
+  learningSpace: LearningSpaceConfig;
+  news: NewsItem[];
+  mainWebsiteLinks: MainWebsiteLink[];
   courseFormats: CourseFormatsConfig;
   priceOffers: PriceOffersConfig;
   teachers: Teacher[];

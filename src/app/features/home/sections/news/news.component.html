@@ -1,0 +1,37 @@
+@if (news?.length) {
+<section class="news-section container py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-9">
+
+            <h2 class="news-title text-center mb-4">
+                Latest Updates
+            </h2>
+
+            <div class="row g-3" [class.justify-content-center]="news.length === 1">
+                @for (item of news; track $index) {
+                <div class="col-12" [class.col-md-6]="news.length > 1" [class.col-md-8]="news.length === 1">
+                    <div class="card news-card h-100">
+                        <div class="news-card-body">
+
+                            <div class="news-date mb-2">
+                                {{ item.date }}
+                            </div>
+
+                            <h3 class="news-card-title mb-2">
+                                {{ item.title }}
+                            </h3>
+
+                            <p class="news-card-text mb-0">
+                                {{ item.description }}
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+
+        </div>
+    </div>
+</section>
+}

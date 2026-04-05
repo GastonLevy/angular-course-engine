@@ -7,6 +7,64 @@
     "imageUrl": "assets/hero_images/hero-fullstack.png",
     "imageAlt": "Developer building a full-stack Angular and Symfony application"
   },
+  "courseTopic": {
+    "heading": "What You Will Learn",
+    "description": "This full-stack program is designed to help students build complete web applications from frontend to backend. It combines Angular, Symfony, APIs, databases, and deployment workflows to reflect how modern professional products are built.",
+    "learningPoints": [
+      "Build structured Angular frontends with reusable components and scalable architecture",
+      "Develop secure Symfony backends with services, validation, and API design",
+      "Connect frontend and backend through real REST-based workflows",
+      "Work with databases, authentication, and production-oriented project structure",
+      "Understand deployment, collaboration, and professional full-stack development practices"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Daniel Fischer",
+      "role": "Junior Full-Stack Developer",
+      "comment": "This program helped me understand how frontend and backend really connect in a real project. It felt much closer to actual work than typical online courses."
+    },
+    {
+      "name": "Chiara Romano",
+      "role": "Career Changer",
+      "comment": "The mix of Angular, Symfony, and project-based learning gave me the structure I needed to build confidence and a portfolio at the same time."
+    }
+  ],
+  "videos": [
+    {
+      "title": "Program Introduction",
+      "url": "https://www.youtube.com/watch?v=example",
+      "thumbnailUrl": "assets/video_thumbnails/fullstack-intro.png"
+    }
+  ],
+  "learningSpace": {
+    "heading": "Your Learning Environment",
+    "description": "The program is built around practical development workflows, guided mentorship, and project-based learning that reflects how full-stack teams work in real environments.",
+    "features": [
+      "Hands-on full-stack projects from UI to API integration",
+      "Code reviews and structured mentor feedback",
+      "Access to repositories, exercises, and learning materials",
+      "Collaborative workflows with Git and team-based development habits",
+      "Community support and milestone-based progress"
+    ]
+  },
+  "news": [
+    {
+      "title": "New Career Support Module Available",
+      "description": "The program now includes additional guidance for portfolio improvement, interview preparation, and full-stack job readiness.",
+      "date": "2026-03-20"
+    }
+  ],
+  "mainWebsiteLinks": [
+    {
+      "label": "Main Platform",
+      "url": "https://your-platform.com"
+    },
+    {
+      "label": "All Courses",
+      "url": "https://your-platform.com/courses"
+    }
+  ],
   "courseFormats": {
     "heading": "Learning Formats",
     "subheading": "Choose the format that matches your schedule, learning style, and career goals.",
@@ -182,11 +240,13 @@
     },
     {
       "name": "Git",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "iconAlt": "Git logo"
     },
     {
       "name": "GitHub",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "iconAlt": "GitHub logo"
     }
   ]
 }

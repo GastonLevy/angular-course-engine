@@ -60,18 +60,31 @@ export interface CourseTopicConfig {
   learningPoints: string[];
 }
 
-export interface Testimonial {
+export interface TestimonialItem {
   name: string;
-  role?: string;
+  role: string;
   comment: string;
-  imageUrl?: string;
-  imageAlt?: string;
+  imageUrl: string;
+  imageAlt: string;
+}
+
+export interface TestimonialsConfig {
+  heading: string;
+  subheading: string;
+  items: TestimonialItem[];
 }
 
 export interface VideoItem {
   title: string;
-  url: string;
-  thumbnailUrl?: string;
+  description: string;
+  embedUrl: string;
+  thumbnailUrl: string;
+}
+
+export interface VideosConfig {
+  heading: string;
+  subheading: string;
+  items: VideoItem[];
 }
 
 export interface LearningSpaceConfig {
@@ -95,8 +108,8 @@ export interface MainWebsiteLink {
 export interface CourseCatalog {
   hero: HeroConfig;
   courseTopic: CourseTopicConfig;
-  testimonials: Testimonial[];
-  videos: VideoItem[];
+  testimonials: TestimonialsConfig;
+  videos: VideosConfig;
   learningSpace: LearningSpaceConfig;
   news: NewsItem[];
   mainWebsiteLinks: MainWebsiteLink[];

@@ -1,58 +1,84 @@
 {
   "hero": {
-    "title": "Master Modern Frontend Development with Angular",
-    "text": "Learn how to build fast, accessible, and production-ready web applications with Angular, TypeScript, and modern UI engineering practices. Create polished interfaces, reusable components, and real-world projects that strengthen both your skills and your portfolio.",
-    "buttonText": "Explore Frontend Track",
+    "title": "Launch Your Career as a Full-Stack Angular & Symfony Developer",
+    "text": "Build modern, scalable web applications with a complete front-end and back-end workflow. Learn how to create polished Angular interfaces, secure Symfony APIs, and production-ready full-stack projects that reflect real industry standards.",
+    "buttonText": "Explore Programs",
     "buttonLink": "#price-offers",
-    "imageUrl": "assets/hero_images/hero-frontend.png",
-    "imageAlt": "Frontend developer building a modern Angular application"
+    "imageUrl": "assets/hero_images/hero-fullstack.png",
+    "imageAlt": "Developer building a full-stack Angular and Symfony application"
   },
   "courseTopic": {
     "heading": "What You Will Learn",
-    "description": "This frontend course is designed to help students build modern Angular applications with strong engineering foundations. It covers everything from core frontend concepts to scalable architecture, UI quality, and production-ready development practices.",
+    "description": "This full-stack program is designed to help students build complete web applications from frontend to backend. It combines Angular, Symfony, APIs, databases, and deployment workflows to reflect how modern professional products are built.",
     "learningPoints": [
-      "Build reusable Angular components and structured application layouts",
-      "Work with routing, forms, HTTP requests, and reactive patterns",
-      "Use TypeScript effectively in real frontend projects",
-      "Create responsive, accessible, and polished user interfaces",
-      "Apply maintainable architecture and frontend best practices"
+      "Build structured Angular frontends with reusable components and scalable architecture",
+      "Develop secure Symfony backends with services, validation, and API design",
+      "Connect frontend and backend through real REST-based workflows",
+      "Work with databases, authentication, and production-oriented project structure",
+      "Understand deployment, collaboration, and professional full-stack development practices"
     ]
   },
-  "testimonials": [
-    {
-      "name": "Sophie Wagner",
-      "role": "Junior Frontend Developer",
-      "comment": "This course helped me finally understand Angular beyond the basics. The project structure and practical exercises made a huge difference."
-    },
-    {
-      "name": "Marco Bianchi",
-      "role": "Career Switcher",
-      "comment": "I liked that the course was not just about syntax. It showed how real frontend applications are built and improved over time."
-    }
-  ],
-  "videos": [
-    {
-      "title": "Course Introduction",
-      "url": "https://www.youtube.com/watch?v=example",
-      "thumbnailUrl": "assets/video_thumbnails/frontend-intro.png"
-    }
-  ],
+  "testimonials": {
+    "heading": "What Our Students Say",
+    "subheading": "Real feedback from learners who completed the full-stack Angular and Symfony journey.",
+    "items": [
+      {
+        "name": "Daniel Fischer",
+        "role": "Junior Full-Stack Developer",
+        "comment": "This program helped me understand how frontend and backend really connect in a real project. It felt much closer to actual work than typical online courses.",
+        "imageUrl": "assets/testimonials_images/daniel_fischer.png",
+        "imageAlt": "Daniel Fischer, junior full-stack developer"
+      },
+      {
+        "name": "Chiara Romano",
+        "role": "Career Changer",
+        "comment": "The mix of Angular, Symfony, and project-based learning gave me the structure I needed to build confidence and a portfolio at the same time.",
+        "imageUrl": "assets/testimonials_images/chiara_romano.png",
+        "imageAlt": "Chiara Romano, career changer"
+      },
+      {
+        "name": "Elias Novak",
+        "role": "Frontend Developer in Training",
+        "comment": "What I valued most was building something that actually felt like a professional application instead of isolated tutorials. The full-stack workflow finally made sense to me.",
+        "imageUrl": "assets/testimonials_images/elias_novak.png",
+        "imageAlt": "Elias Novak, frontend developer in training"
+      }
+    ]
+  },
+  "videos": {
+    "heading": "Program Videos",
+    "subheading": "A closer look at the course structure, teaching approach, and full-stack learning experience.",
+    "items": [
+      {
+        "title": "Program Introduction",
+        "description": "An overview of the course goals, structure, and how Angular and Symfony are combined throughout the learning path.",
+        "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "thumbnailUrl": "assets/video_thumbnails/fullstack-intro.png"
+      },
+      {
+        "title": "Build Your First Full-Stack Project",
+        "description": "A preview of how students move from interface design to API integration and full application delivery.",
+        "embedUrl": "https://www.youtube.com/embed/3fumBcKC6RE",
+        "thumbnailUrl": "assets/video_thumbnails/fullstack-project.png"
+      }
+    ]
+  },
   "learningSpace": {
     "heading": "Your Learning Environment",
-    "description": "The course includes a practical environment focused on real project work, guided exercises, and frontend development workflows used in professional teams.",
+    "description": "The program is built around practical development workflows, guided mentorship, and project-based learning that reflects how full-stack teams work in real environments.",
     "features": [
-      "Hands-on Angular projects with guided implementation",
-      "Code reviews and mentor feedback",
-      "Access to project repositories and learning materials",
-      "Structured exercises for UI, architecture, and refactoring",
-      "Community support and collaborative learning"
+      "Hands-on full-stack projects from UI to API integration",
+      "Code reviews and structured mentor feedback",
+      "Access to repositories, exercises, and learning materials",
+      "Collaborative workflows with Git and team-based development habits",
+      "Community support and milestone-based progress"
     ]
   },
   "news": [
     {
-      "title": "New Module: Angular UI Architecture",
-      "description": "A new section has been added to help students design cleaner, more reusable frontend component structures.",
-      "date": "2026-03-18"
+      "title": "New Career Support Module Available",
+      "description": "The program now includes additional guidance for portfolio improvement, interview preparation, and full-stack job readiness.",
+      "date": "2026-03-20"
     }
   ],
   "mainWebsiteLinks": [
@@ -66,125 +92,125 @@
     }
   ],
   "courseFormats": {
-    "heading": "Frontend Learning Paths",
-    "subheading": "Choose a learning path that matches your current level, your schedule, and the type of frontend developer you want to become.",
+    "heading": "Learning Formats",
+    "subheading": "Choose the format that matches your schedule, learning style, and career goals.",
     "formats": [
       {
-        "title": "Angular Foundations",
+        "title": "Online Intensive",
         "features": [
-          "Core HTML, CSS, JavaScript, and TypeScript concepts",
-          "Angular components, templates, directives, and data binding",
-          "Hands-on exercises in every module",
-          "Responsive layouts with modern CSS techniques",
-          "Debugging basics and clean code habits",
-          "Best for beginners building a strong frontend base"
+          "Live instructor-led Angular and Symfony sessions",
+          "Weekly coding challenges and guided exercises",
+          "Real-time Q&A and structured mentor support",
+          "Recorded classes available after every session",
+          "Pair programming and code review workshops",
+          "Best for students who want a fast-paced remote experience"
         ],
-        "buttonText": "View details",
+        "buttonText": "Learn more",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "Advanced Angular Engineering",
+        "title": "On Campus",
         "features": [
-          "Routing, guards, forms, and HTTP communication",
-          "Component architecture and reusable UI patterns",
-          "RxJS, reactive thinking, and async data handling",
-          "State management and scalable project structure",
-          "Performance optimization and maintainability best practices",
-          "Best for developers who want to build real production apps"
+          "Face-to-face classes with direct instructor interaction",
+          "Collaborative project work in small teams",
+          "Hands-on labs focused on production workflows",
+          "Daily feedback and classroom code review sessions",
+          "Networking with peers and mentors on site",
+          "Best for students who prefer structure and in-person learning"
         ],
-        "buttonText": "View details",
+        "buttonText": "Learn more",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "UI/UX with Angular",
+        "title": "Hybrid Flex",
         "features": [
-          "Design systems and consistent component libraries",
-          "Accessible interfaces and responsive user experiences",
-          "UI refactoring sessions based on real project scenarios",
-          "Visual hierarchy, spacing, and frontend polish",
-          "Bridging design decisions with Angular implementation",
-          "Best for developers who want strong design-aware frontend skills"
+          "Mix remote study with selected on-site workshops",
+          "Flexible schedule designed for working professionals",
+          "Access to recordings, exercises, and reusable code templates",
+          "Dedicated mentor office hours every week",
+          "Project-based learning with milestone tracking",
+          "Best for learners balancing study, work, and personal commitments"
         ],
-        "buttonText": "View details",
+        "buttonText": "Learn more",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
   "priceOffers": {
-    "heading": "Frontend Plans",
-    "subheading": "Pick the plan that matches how deep you want to go into Angular, frontend architecture, and practical project work.",
+    "heading": "Programs & Pricing",
+    "subheading": "Choose the level of depth, mentorship, and career support that fits where you are now—and where you want to go next.",
     "offers": [
       {
-        "title": "Starter Frontend",
-        "price": 29,
+        "title": "Starter Path",
+        "price": 49,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "HTML, CSS, and JavaScript essentials",
-          "Introduction to Angular components and templates",
-          "Basic TypeScript for frontend development",
-          "Structured exercises and guided mini-projects",
-          "Community support",
-          "Access to recorded lessons and starter materials"
+          "Introduction to HTML, CSS, JavaScript, and Git",
+          "Fundamentals of TypeScript and Angular components",
+          "PHP basics and Symfony project structure overview",
+          "Self-paced exercises and guided mini-projects",
+          "Community support channel",
+          "Access to recorded lessons and learning materials"
         ],
-        "buttonText": "Sign up",
+        "buttonText": "Start learning",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "Angular Pro",
-        "price": 69,
+        "title": "Professional Path",
+        "price": 89,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Complete Angular curriculum from fundamentals to advanced topics",
-          "Routing, reactive forms, API integration, and reusable architecture",
-          "Live coding sessions and practical frontend challenges",
-          "Code reviews and mentor feedback",
-          "Access to all guided frontend projects",
-          "Certificate of completion for your portfolio"
+          "Advanced Angular patterns and reactive architecture",
+          "Symfony controllers, services, forms, and validation",
+          "REST API design and front-end integration",
+          "Authentication, authorization, and secure workflows",
+          "Weekly code reviews with mentor feedback",
+          "Portfolio-ready full-stack project with deployment guidance"
         ],
         "buttonText": "Get started",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       },
       {
-        "title": "UI/UX & Angular Expert",
-        "price": 109,
+        "title": "Career Accelerator",
+        "price": 149,
         "currency": "€",
         "period": "/mo",
         "features": [
-          "Design-focused Angular projects with production-style workflows",
-          "Advanced UI composition and scalable component systems",
-          "Accessibility, responsiveness, and interface polish",
-          "Mentorship from senior frontend engineers",
-          "Portfolio reviews and project feedback sessions",
-          "Career-oriented support for frontend job readiness"
+          "Enterprise-style Angular and Symfony project architecture",
+          "Testing strategy with unit, integration, and API testing",
+          "Docker, CI/CD, and deployment fundamentals",
+          "Team workflow with Git branching and pull requests",
+          "1:1 mentorship sessions and technical interview preparation",
+          "CV, portfolio, and job application support"
         ],
-        "buttonText": "Talk with us",
+        "buttonText": "Apply now",
         "buttonClass": "w-100 btn btn-lg btn-primary"
       }
     ]
   },
   "teachers": [
     {
-      "name": "Anna Müller",
-      "title": "Lead Angular Engineer",
-      "description": "Anna specializes in Angular, TypeScript, and scalable frontend architecture. She helps students understand how to write clean, maintainable, and testable code that reflects real engineering standards.",
-      "imageUrl": "assets/teachers_images/anna_muller.png",
-      "imageAlt": "Anna Müller, lead Angular engineer"
+      "name": "Laura Becker",
+      "title": "Senior Full-Stack Engineer",
+      "description": "Laura has led multiple enterprise web platforms built with Angular and Symfony. She focuses on clean architecture, maintainable code, and helping students understand how professional teams structure real-world applications.",
+      "imageUrl": "assets/teachers_images/laura_becker.png",
+      "imageAlt": "Laura Becker, senior full-stack engineer"
     },
     {
-      "name": "David Rossi",
-      "title": "UI/UX & Frontend Specialist",
-      "description": "David combines interface design and frontend development to help students build polished, accessible, and user-focused applications with Angular and modern CSS workflows.",
-      "imageUrl": "assets/teachers_images/david_rossi.png",
-      "imageAlt": "David Rossi, UI and frontend specialist"
+      "name": "Miguel Alvarez",
+      "title": "Frontend Architect",
+      "description": "Miguel specializes in TypeScript, Angular, state management, and scalable UI design. His teaching style is highly practical, helping students move from tutorials to production-ready front-end engineering.",
+      "imageUrl": "assets/teachers_images/miguel_alvarez.png",
+      "imageAlt": "Miguel Alvarez, frontend architect"
     },
     {
-      "name": "Elena Novak",
-      "title": "Frontend Mentor",
-      "description": "Elena guides students through real project scenarios, pair programming, and code review sessions so they can grow from learning syntax to thinking like confident frontend developers.",
-      "imageUrl": "assets/teachers_images/elena_novak.jpg",
-      "imageAlt": "Elena Novak, frontend mentor"
+      "name": "Claire Dubois",
+      "title": "Backend & DevOps Engineer",
+      "description": "Claire brings deep experience in Symfony, API security, Docker, CI/CD, and deployment pipelines. She helps students understand how strong backend foundations support stable and scalable products.",
+      "imageUrl": "assets/teachers_images/claire_dubois.png",
+      "imageAlt": "Claire Dubois, backend and DevOps engineer"
     }
   ],
   "technologies": [
@@ -214,14 +240,29 @@
       "iconAlt": "Angular logo"
     },
     {
-      "name": "RxJS",
-      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/reactivex.svg",
-      "iconAlt": "RxJS logo"
-    },
-    {
       "name": "Bootstrap",
       "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
       "iconAlt": "Bootstrap logo"
+    },
+    {
+      "name": "PHP",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "iconAlt": "PHP logo"
+    },
+    {
+      "name": "Symfony",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg",
+      "iconAlt": "Symfony logo"
+    },
+    {
+      "name": "MySQL",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "iconAlt": "MySQL logo"
+    },
+    {
+      "name": "Docker",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      "iconAlt": "Docker logo"
     },
     {
       "name": "Git",

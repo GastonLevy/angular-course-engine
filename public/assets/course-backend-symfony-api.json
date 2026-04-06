@@ -7,7 +7,6 @@
     "imageUrl": "assets/hero_images/hero-backend.png",
     "imageAlt": "Backend developer designing APIs with Symfony and PHP"
   },
-
   "courseTopic": {
     "heading": "What You Will Learn",
     "description": "This backend course focuses on building real-world APIs using Symfony and modern PHP. You will learn how to design scalable systems, secure your applications, and deploy production-ready backends.",
@@ -19,28 +18,51 @@
       "Deploy and manage backend applications using Docker"
     ]
   },
-
-  "testimonials": [
-    {
-      "name": "Lucas Meyer",
-      "role": "Junior Backend Developer",
-      "comment": "This course gave me the confidence to build my first real API. The focus on architecture and real-world scenarios was exactly what I needed."
-    },
-    {
-      "name": "Anna Schmidt",
-      "role": "Fullstack Developer",
-      "comment": "The Symfony section was extremely practical. I finally understood how to structure a backend project properly."
-    }
-  ],
-
-  "videos": [
-    {
-      "title": "Course Introduction",
-      "url": "https://www.youtube.com/watch?v=example",
-      "thumbnailUrl": "assets/video_thumbnails/backend-intro.png"
-    }
-  ],
-
+  "testimonials": {
+    "heading": "What Our Students Say",
+    "subheading": "Experiences from learners who strengthened their backend skills with Symfony and modern PHP.",
+    "items": [
+      {
+        "name": "Lucas Meyer",
+        "role": "Junior Backend Developer",
+        "comment": "This course gave me the confidence to build my first real API. The focus on architecture and real-world scenarios was exactly what I needed.",
+        "imageUrl": "assets/testimonials_images/lucas_meyer.png",
+        "imageAlt": "Lucas Meyer, junior backend developer"
+      },
+      {
+        "name": "Anna Schmidt",
+        "role": "Fullstack Developer",
+        "comment": "The Symfony section was extremely practical. I finally understood how to structure a backend project properly.",
+        "imageUrl": "assets/testimonials_images/anna_schmidt.png",
+        "imageAlt": "Anna Schmidt, fullstack developer"
+      },
+      {
+        "name": "Marco Leone",
+        "role": "Aspiring API Engineer",
+        "comment": "What stood out most was how clearly the course explained authentication, services, and deployment. It felt close to the kind of backend work I want to do professionally.",
+        "imageUrl": "assets/testimonials_images/marco_leone.png",
+        "imageAlt": "Marco Leone, aspiring API engineer"
+      }
+    ]
+  },
+  "videos": {
+    "heading": "Course Videos",
+    "subheading": "Preview the teaching style, backend workflow, and production-focused approach of the program.",
+    "items": [
+      {
+        "title": "Course Introduction",
+        "description": "A guided overview of the backend track, learning goals, and how Symfony is used to build scalable APIs.",
+        "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "thumbnailUrl": "assets/video_thumbnails/backend-intro.png"
+      },
+      {
+        "title": "Inside a Symfony API Project",
+        "description": "A short preview of the architecture, services, and security concepts students work with during the course.",
+        "embedUrl": "https://www.youtube.com/embed/3fumBcKC6RE",
+        "thumbnailUrl": "assets/video_thumbnails/backend-architecture.png"
+      }
+    ]
+  },
   "learningSpace": {
     "heading": "Your Learning Environment",
     "description": "You will work in a structured environment designed to simulate real backend development workflows.",
@@ -52,7 +74,6 @@
       "Community support and mentor guidance"
     ]
   },
-
   "news": [
     {
       "title": "New Module: Advanced Security",
@@ -60,7 +81,6 @@
       "date": "2026-03-15"
     }
   ],
-
   "mainWebsiteLinks": [
     {
       "label": "Main Platform",
@@ -71,7 +91,6 @@
       "url": "https://your-platform.com/courses"
     }
   ],
-
   "courseFormats": {
     "heading": "Backend Learning Paths",
     "subheading": "From core PHP fundamentals to production-grade APIs, security, and deployment workflows.",
@@ -117,7 +136,6 @@
       }
     ]
   },
-
   "priceOffers": {
     "heading": "Backend Plans",
     "subheading": "Select the level of backend depth, architecture knowledge, and production readiness you want to achieve.",
@@ -172,7 +190,6 @@
       }
     ]
   },
-
   "teachers": [
     {
       "name": "Thomas Richter",
@@ -196,7 +213,6 @@
       "imageAlt": "Jonas Weber, DevOps and backend mentor"
     }
   ],
-
   "technologies": [
     {
       "name": "PHP",

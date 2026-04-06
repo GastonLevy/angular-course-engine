@@ -50,16 +50,16 @@
     "subheading": "A closer look at the course structure, teaching approach, and full-stack learning experience.",
     "items": [
       {
-        "title": "Program Introduction",
-        "description": "An overview of the course goals, structure, and how Angular and Symfony are combined throughout the learning path.",
-        "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        "thumbnailUrl": "assets/video_thumbnails/fullstack-intro.png"
+        "title": "Angular in 100 Seconds",
+        "description": "A concise introduction to Angular’s core concepts, including components, templates, and data binding. This video gives a quick overview of how Angular structures modern web applications and helps you understand its role in building scalable front-end systems.",
+        "embedUrl": "https://www.youtube.com/embed/Ata9cSC2WpM?si=uBAVRWUK1Swdzmm6",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Angular_gradient_logo.png/500px-Angular_gradient_logo.png"
       },
       {
-        "title": "Build Your First Full-Stack Project",
-        "description": "A preview of how students move from interface design to API integration and full application delivery.",
-        "embedUrl": "https://www.youtube.com/embed/3fumBcKC6RE",
-        "thumbnailUrl": "assets/video_thumbnails/fullstack-project.png"
+        "title": "Why Learn Symfony in 2026?",
+        "description": "Explore the key reasons why Symfony remains a powerful choice for backend development in 2025. This video covers its flexibility, strong architecture, and real-world use cases, helping you understand why it’s widely used in professional, scalable applications.",
+        "embedUrl": "https://www.youtube.com/embed/6uXW-ulpj0s?si=q56A5SqvUoeHf_MQ",
+        "thumbnailUrl": "https://media.printables.com/media/prints/825304/images/6367971_fc2f9b61-ecea-4744-9ac0-6dbbc4dfe20a_337a4916-908f-41e4-9146-fa05e6839ff6/thumbs/inside/1280x960/jpg/symfony.webp"
       }
     ]
   },

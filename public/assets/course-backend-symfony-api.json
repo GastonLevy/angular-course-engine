@@ -50,16 +50,16 @@
     "subheading": "Preview the teaching style, backend workflow, and production-focused approach of the program.",
     "items": [
       {
-        "title": "Course Introduction",
-        "description": "A guided overview of the backend track, learning goals, and how Symfony is used to build scalable APIs.",
-        "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        "thumbnailUrl": "assets/video_thumbnails/backend-intro.png"
+        "title": "Why Learn Symfony in 2026?",
+        "description": "Explore the key reasons why Symfony remains a powerful choice for backend development in 2025. This video covers its flexibility, strong architecture, and real-world use cases, helping you understand why it’s widely used in professional, scalable applications.",
+        "embedUrl": "https://www.youtube.com/embed/6uXW-ulpj0s?si=q56A5SqvUoeHf_MQ",
+        "thumbnailUrl": "https://media.printables.com/media/prints/825304/images/6367971_fc2f9b61-ecea-4744-9ac0-6dbbc4dfe20a_337a4916-908f-41e4-9146-fa05e6839ff6/thumbs/inside/1280x960/jpg/symfony.webp"
       },
       {
-        "title": "Inside a Symfony API Project",
-        "description": "A short preview of the architecture, services, and security concepts students work with during the course.",
-        "embedUrl": "https://www.youtube.com/embed/3fumBcKC6RE",
-        "thumbnailUrl": "assets/video_thumbnails/backend-architecture.png"
+        "title": "Databases in 100 Seconds",
+        "description": "A fast-paced overview of how databases work, covering core concepts like tables, queries, and data relationships. This video helps you understand how applications store, retrieve, and manage data in real-world systems.",
+        "embedUrl": "https://www.youtube.com/embed/zsjvFFKOm3c?si=YMiSX7x9isAymLWk",
+        "thumbnailUrl": "https://www.dataversity.net/wp-content/uploads/2025/09/kf_typesofdbms_oct23.png"
       }
     ]
   },

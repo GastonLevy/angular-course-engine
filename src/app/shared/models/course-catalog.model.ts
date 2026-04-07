@@ -63,9 +63,8 @@ export interface CourseTopicConfig {
 export interface TestimonialItem {
   name: string;
   role: string;
+  rating: number;
   comment: string;
-  imageUrl: string;
-  imageAlt: string;
 }
 
 export interface TestimonialsConfig {

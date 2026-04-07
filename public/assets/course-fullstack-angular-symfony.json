@@ -25,23 +25,20 @@
       {
         "name": "Daniel Fischer",
         "role": "Junior Full-Stack Developer",
-        "comment": "This program helped me understand how frontend and backend really connect in a real project. It felt much closer to actual work than typical online courses.",
-        "imageUrl": "assets/testimonials_images/daniel_fischer.png",
-        "imageAlt": "Daniel Fischer, junior full-stack developer"
+        "rating": 5,
+        "comment": "This program helped me understand how frontend and backend really connect in a real project. It felt much closer to actual work than typical online courses."
       },
       {
         "name": "Chiara Romano",
         "role": "Career Changer",
-        "comment": "The mix of Angular, Symfony, and project-based learning gave me the structure I needed to build confidence and a portfolio at the same time.",
-        "imageUrl": "assets/testimonials_images/chiara_romano.png",
-        "imageAlt": "Chiara Romano, career changer"
+        "rating": 5,
+        "comment": "The mix of Angular, Symfony, and project-based learning gave me the structure I needed to build confidence and a portfolio at the same time."
       },
       {
         "name": "Elias Novak",
         "role": "Frontend Developer in Training",
-        "comment": "What I valued most was building something that actually felt like a professional application instead of isolated tutorials. The full-stack workflow finally made sense to me.",
-        "imageUrl": "assets/testimonials_images/elias_novak.png",
-        "imageAlt": "Elias Novak, frontend developer in training"
+        "rating": 4,
+        "comment": "What I valued most was building something that actually felt like a professional application instead of isolated tutorials. The full-stack workflow finally made sense to me."
       }
     ]
   },

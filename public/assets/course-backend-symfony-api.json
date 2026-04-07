@@ -25,23 +25,20 @@
       {
         "name": "Lucas Meyer",
         "role": "Junior Backend Developer",
-        "comment": "This course gave me the confidence to build my first real API. The focus on architecture and real-world scenarios was exactly what I needed.",
-        "imageUrl": "assets/testimonials_images/lucas_meyer.png",
-        "imageAlt": "Lucas Meyer, junior backend developer"
+        "rating": 5,
+        "comment": "This course gave me the confidence to build my first real API. The focus on architecture and real-world scenarios was exactly what I needed."
       },
       {
         "name": "Anna Schmidt",
         "role": "Fullstack Developer",
-        "comment": "The Symfony section was extremely practical. I finally understood how to structure a backend project properly.",
-        "imageUrl": "assets/testimonials_images/anna_schmidt.png",
-        "imageAlt": "Anna Schmidt, fullstack developer"
+        "rating": 5,
+        "comment": "The Symfony section was extremely practical. I finally understood how to structure a backend project properly."
       },
       {
         "name": "Marco Leone",
         "role": "Aspiring API Engineer",
-        "comment": "What stood out most was how clearly the course explained authentication, services, and deployment. It felt close to the kind of backend work I want to do professionally.",
-        "imageUrl": "assets/testimonials_images/marco_leone.png",
-        "imageAlt": "Marco Leone, aspiring API engineer"
+        "rating": 4,
+        "comment": "What stood out most was how clearly the course explained authentication, services, and deployment. It felt close to the kind of backend work I want to do professionally."
       }
     ]
   },

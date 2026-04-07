@@ -25,23 +25,20 @@
       {
         "name": "Sophie Wagner",
         "role": "Junior Frontend Developer",
-        "comment": "This course helped me finally understand Angular beyond the basics. The project structure and practical exercises made a huge difference.",
-        "imageUrl": "assets/testimonials_images/sophie_wagner.png",
-        "imageAlt": "Sophie Wagner, junior frontend developer"
+        "rating": 5,
+        "comment": "This course helped me finally understand Angular beyond the basics. The project structure and practical exercises made a huge difference."
       },
       {
         "name": "Marco Bianchi",
         "role": "Career Switcher",
-        "comment": "I liked that the course was not just about syntax. It showed how real frontend applications are built and improved over time.",
-        "imageUrl": "assets/testimonials_images/marco_bianchi.png",
-        "imageAlt": "Marco Bianchi, career switcher"
+        "rating": 4,
+        "comment": "I liked that the course was not just about syntax. It showed how real frontend applications are built and improved over time."
       },
       {
         "name": "Lea Hoffmann",
         "role": "Frontend Student",
-        "comment": "The sections on components, architecture, and UI polish gave me a much clearer way to think about building Angular applications professionally.",
-        "imageUrl": "assets/testimonials_images/lea_hoffmann.png",
-        "imageAlt": "Lea Hoffmann, frontend student"
+        "rating": 5,
+        "comment": "The sections on components, architecture, and UI polish gave me a much clearer way to think about building Angular applications professionally."
       }
     ]
   },

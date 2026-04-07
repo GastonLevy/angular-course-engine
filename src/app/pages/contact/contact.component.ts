@@ -24,4 +24,8 @@ export class ContactComponent {
       github: 'https://github.com/GastonLevy',
     },
   ];
+
+  copyEmail(): void {
+    navigator.clipboard.writeText('ggastlino@gmail.com');
+  }
 }

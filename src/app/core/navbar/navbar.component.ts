@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { NgClass } from '@angular/common';
 import { NavbarItem } from './navbar.types';
 import { CourseCatalogService } from '../../data-access/course-catalog.service';
@@ -12,6 +12,7 @@ import { CourseCatalogService } from '../../data-access/course-catalog.service';
   styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
+  private readonly router = inject(Router);
   private readonly catalogService = inject(CourseCatalogService);
 
   readonly courses = this.catalogService.courses;
@@ -19,13 +20,13 @@ export class NavbarComponent {
 
   items: NavbarItem[] = [
     { type: 'logo', text: 'CodeFactory', href: '#course' },
-
     { type: 'link', text: 'About us', href: '/about-us' },
     { type: 'link', text: 'Contact', href: '/contact' },
   ];
 
   selectCourse(courseKey: string): void {
     this.catalogService.loadCourse(courseKey);
+    this.router.navigate(['/']);
   }
 
   isActiveCourse(courseKey: string): boolean {

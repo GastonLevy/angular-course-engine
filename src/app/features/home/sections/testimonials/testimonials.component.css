@@ -17,17 +17,16 @@
 .testimonial-card {
     background-color: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 16px;
+    border-radius: 12px;
     color: var(--text);
     overflow: hidden;
-    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    transition: border-color 0.2s ease, transform 0.2s ease;
     height: 100%;
 }
 
 .testimonial-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(240, 237, 229, 0.2);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
+    border-color: var(--primary);
+    transform: translateY(-2px);
 }
 
 .testimonial-card .card-body {
@@ -41,7 +40,7 @@
     font-size: 1.1rem;
     line-height: 1;
     letter-spacing: 0.12rem;
-    color: #f5c451;
+    color: #7fffb0;
 }
 
 .testimonial-card p {

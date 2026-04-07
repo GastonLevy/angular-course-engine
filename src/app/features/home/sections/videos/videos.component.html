@@ -1,0 +1,44 @@
+<section class="videos-section py-5">
+    @if (videos) {
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="mb-3">{{ videos.heading }}</h2>
+            <p class="mb-0">{{ videos.subheading }}</p>
+        </div>
+
+        <div class="row g-4">
+            @for (video of videos.items; track $index) {
+            <div class="col-12 col-lg-6">
+                <article class="card h-100 shadow-sm border-0 video-card">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="h5 mb-3">{{ video.title }}</h3>
+                        <p class="mb-4">{{ video.description }}</p>
+
+                        <div class="video-media mt-auto">
+                            <div class="ratio ratio-16x9">
+                                @if (activeIndex === $index) {
+                                <iframe [src]="getSafeVideoUrl(video.embedUrl)" [title]="video.title"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                } @else {
+                                <button type="button" class="video-thumbnail-button p-0 border-0 bg-transparent w-100"
+                                    (click)="toggleVideo($index)">
+                                    <img [src]="video.thumbnailUrl" [alt]="video.title" class="video-thumbnail-image">
+                                </button>
+                                }
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-light mt-3 align-self-start"
+                            (click)="toggleVideo($index)">
+                            {{ activeIndex === $index ? 'Close video' : 'Play video' }}
+                        </button>
+                    </div>
+                </article>
+            </div>
+            }
+        </div>
+    </div>
+    }
+</section>

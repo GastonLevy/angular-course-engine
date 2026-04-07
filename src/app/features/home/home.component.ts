@@ -9,6 +9,8 @@ import { CourseTopicComponent } from './sections/course-topic/course-topic.compo
 import { LearningSpaceComponent } from './sections/learning-space/learning-space.component';
 import { MainLinksComponent } from './sections/main-links/main-links.component';
 import { NewsComponent } from './sections/news/news.component';
+import { VideosComponent } from './sections/videos/videos.component';
+import { TestimonialsComponent } from './sections/testimonials/testimonials.component';
 
 @Component({
   selector: 'app-home',
@@ -23,6 +25,8 @@ import { NewsComponent } from './sections/news/news.component';
     LearningSpaceComponent,
     MainLinksComponent,
     NewsComponent,
+    VideosComponent,
+    TestimonialsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

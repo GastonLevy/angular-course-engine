@@ -2,6 +2,7 @@
 <section class="learning-space-section container py-4">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-xl-9">
+
             <div class="text-center mb-4">
                 <h2 class="learning-space-title mb-3">
                     {{ learningSpace.heading }}
@@ -11,10 +12,12 @@
                     {{ learningSpace.description }}
                 </p>
             </div>
+
             <div class="card learning-space-card">
-                <div class="row g-3">
-                    @for (feature of learningSpace.features; track $index) {
-                    <div class="col-md-6">
+                <div class="row g-3" [class.justify-content-center]="learningSpace.features.length === 1">
+                    @for (feature of learningSpace.features; track feature) {
+                    <div class="col-12" [class.col-md-6]="learningSpace.features.length > 1"
+                        [class.col-md-8]="learningSpace.features.length === 1">
                         <div class="learning-space-feature-card">
                             <span class="learning-space-feature-icon">✓</span>
                             <p class="learning-space-feature-text mb-0">
@@ -25,6 +28,7 @@
                     }
                 </div>
             </div>
+
         </div>
     </div>
 </section>

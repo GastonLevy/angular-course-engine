@@ -7,9 +7,10 @@
       </p>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+    <div class="row g-3" [class.justify-content-center]="config.formats.length < 3">
       @for (format of config.formats; track format.title) {
-      <div class="col d-flex">
+      <div class="col-12 d-flex" [class.col-md-6]="config.formats.length > 1"
+        [class.col-xl-4]="config.formats.length > 2" [class.col-lg-8]="config.formats.length === 1">
         <div class="card h-100 w-100 text-center">
 
           <div class="card-header py-3 border-0">

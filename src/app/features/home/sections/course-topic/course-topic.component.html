@@ -2,6 +2,7 @@
 <section class="course-topic-section container py-5">
     <div class="row justify-content-center">
         <div class="col-lg-10 col-xl-9">
+
             <div class="text-center mb-4">
                 <h2 class="course-topic-title mb-3">
                     {{ topic.heading }}
@@ -11,9 +12,10 @@
                     {{ topic.description }}
                 </p>
             </div>
+
             <div class="card course-topic-card">
                 <div class="course-topic-points">
-                    @for (point of topic.learningPoints; track $index) {
+                    @for (point of topic.learningPoints; track point) {
                     <div class="course-topic-point">
                         <span class="course-topic-point-icon">✓</span>
                         <p class="course-topic-point-text mb-0">
@@ -23,6 +25,7 @@
                     }
                 </div>
             </div>
+
         </div>
     </div>
 </section>

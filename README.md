@@ -4,6 +4,10 @@
   Scalable, JSON-driven UI platform for dynamic course landing pages
 </p>
 
+<p align="center">
+  <a href="https://splendorous-fudge-9befa7.netlify.app/" target="_blank"><strong>Live Demo</strong></a>
+</p>
+
 <hr/>
 
 <h2>🚀 What This Is</h2>

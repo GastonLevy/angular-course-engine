@@ -1,95 +1,132 @@
-<h1 align="center">Dynamic Course Landing (Angular)</h1>
+<h1 align="center">Angular Course Engine</h1>
 
 <p align="center">
-  Reusable Angular landing page platform driven by JSON data.
+  Scalable, JSON-driven UI platform for dynamic course landing pages
 </p>
 
-<hr>
+<hr/>
 
-<h2>Overview</h2>
+<h2>🚀 What This Is</h2>
 
 <p>
-  This project is a dynamic course landing platform built with <strong>Angular</strong>.
-  Instead of creating a different landing page for each course, the application uses a
-  <strong>JSON-driven structure</strong> to render content dynamically through reusable sections and components.
+<strong>Angular Course Engine</strong> is a frontend system designed to render complete course landing pages dynamically from structured JSON.
 </p>
 
 <p>
-  The main idea is simple: <strong>change the data, not the structure</strong>.
-  This makes the project flexible, scalable, and easy to adapt for different course offerings.
+It eliminates hardcoded UI by separating content from presentation, enabling instant reconfiguration of the entire application without touching component logic.
 </p>
 
-<hr>
+<hr/>
 
-<h2>Key Features</h2>
+<h2>🔥 Core Value</h2>
 
 <ul>
-  <li>Dynamic content rendering from a single JSON source</li>
-  <li>Reusable and modular section-based architecture</li>
-  <li>Standalone Angular components</li>
-  <li>Signals for reactive state management</li>
-  <li>Clean separation between data and UI</li>
+  <li>Transforms static UIs into configurable systems</li>
+  <li>Enables multi-course platforms with a single codebase</li>
+  <li>Reduces development overhead for new landing pages to near zero</li>
 </ul>
 
-<hr>
+<hr/>
 
-<h2>Architecture</h2>
-
-<p>
-  The application follows a simple and scalable structure:
-</p>
+<h2>⚙️ Technical Highlights</h2>
 
 <ul>
-  <li><strong>Data Layer:</strong> JSON catalog + service (CourseCatalogService)</li>
-  <li><strong>UI Layer:</strong> Section-based components (Hero, Teachers, Tech, Pricing, Formats)</li>
-  <li><strong>State Management:</strong> Angular signals</li>
+  <li>Architecture based on <strong>data-driven rendering</strong></li>
+  <li>Fully modular <strong>standalone Angular components</strong></li>
+  <li>Reactive state handled via <strong>Angular Signals</strong></li>
+  <li>Centralized data loading through <code>CourseCatalogService</code></li>
+  <li>Strict separation between UI structure and content</li>
+</ul>
+
+<hr/>
+
+<h2>🧠 System Design</h2>
+
+<ul>
+  <li><strong>Content Layer:</strong> JSON presets (course configurations)</li>
+  <li><strong>Logic Layer:</strong> Service-driven data orchestration</li>
+  <li><strong>Presentation Layer:</strong> Reusable UI components</li>
 </ul>
 
 <p>
-  Each section is independent and receives only the data it needs.
+This structure allows scaling from a single landing page to a full course platform without architectural changes.
 </p>
 
-<hr>
+<hr/>
 
-<h2>Tech Stack</h2>
-
-<ul>
-  <li>Angular (standalone components, signals)</li>
-  <li>TypeScript</li>
-  <li>HTML / CSS</li>
-  <li>Bootstrap</li>
-</ul>
-
-<hr>
-
-<h2>How It Works</h2>
+<h2>📦 Dynamic Rendering Flow</h2>
 
 <ol>
-  <li>The application loads a course configuration from a JSON file</li>
-  <li>The catalog service exposes the data using signals</li>
-  <li>The Home component distributes the data to each section</li>
-  <li>Each section renders dynamically based on the provided data</li>
+  <li>Load selected course preset</li>
+  <li>Fetch JSON from <code>/assets</code></li>
+  <li>Update reactive state (Signals)</li>
+  <li>Render UI dynamically via component composition</li>
 </ol>
 
-<hr>
+<hr/>
 
-<h2>Use Case</h2>
+<h2>🛠️ Tech Stack</h2>
+
+<ul>
+  <li>Angular (Standalone + Signals)</li>
+  <li>TypeScript</li>
+  <li>Bootstrap</li>
+  <li>CSS Variables (custom theming system)</li>
+</ul>
+
+<hr/>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+src/
+ ├── app/
+ │   ├── components/
+ │   ├── pages/
+ │   ├── services/
+ │   └── models/
+ ├── assets/
+ │   ├── course-frontend-angular.json
+ │   ├── course-backend-symfony-api.json
+ │   └── course-fullstack-angular-symfony.json
+</pre>
+
+<hr/>
+
+<h2>📈 Engineering Impact</h2>
+
+<ul>
+  <li>Replaces static pages with a configurable rendering engine</li>
+  <li>Improves maintainability through strict separation of concerns</li>
+  <li>Demonstrates production-oriented frontend architecture</li>
+</ul>
+
+<hr/>
+
+<h2>🧪 Real Use Cases</h2>
+
+<ul>
+  <li>Course platforms</li>
+  <li>Multi-product landing systems</li>
+  <li>Content-driven SaaS frontends</li>
+</ul>
+
+<hr/>
+
+<h2>🚧 Next Steps</h2>
+
+<ul>
+  <li>Headless CMS integration</li>
+  <li>Admin panel for content management</li>
+  <li>Multi-language support (i18n)</li>
+  <li>Authentication & personalization</li>
+</ul>
+
+<hr/>
+
+<h2>👨‍💻 Author</h2>
 
 <p>
-  This project is designed for scenarios where multiple course landing pages are needed,
-  but maintaining separate codebases would be inefficient.
-</p>
-
-<p>
-  With this approach, new courses can be launched by simply updating the JSON structure,
-  without modifying the core application.
-</p>
-
-<hr>
-
-<h2>Project Status</h2>
-
-<p>
-  Initial version completed. Currently focused on UI improvements and visual refinement
-  for portfolio presentation.
+Gastón Omar Lino Levy<br/>
+<a href="https://github.com/GastonLevy">GitHub Profile</a>
 </p>

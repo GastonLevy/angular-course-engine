@@ -6,33 +6,28 @@
     color: var(--text);
 }
 
-/* Card wrapper */
 .teacher-card {
     padding: 1.5rem;
 }
 
-/* Imagen */
 .teacher-img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--border);
 }
 
-/* Nombre */
 .teacher-card h3 {
     color: var(--text);
 }
 
-/* Rol */
 .teacher-role {
     color: var(--text-muted);
     font-size: 0.9rem;
     opacity: 0.9;
 }
 
-/* Descripción */
 .teacher-description {
     color: var(--text);
     opacity: 0.85;

@@ -119,7 +119,7 @@ src/
 
 <hr/>
 
-<h2>👨‍💻 Author</h2>
+<h2>Author</h2>
 
 <p>
 Gastón Omar Lino Levy<br/>

@@ -1,30 +1,17 @@
 @if (catalog(); as catalog) {
 <div class="home-wrapper">
-  <!-- Sidebar 
-    <aside class="sidebar d-none d-lg-block">
-      <div>
-        <h5>Courses</h5>
-
-        <ul class="course-list">
-          @for (course of courses(); track course.key) {
-          <li>
-            <a href="#" (click)="$event.preventDefault(); selectCourse(course.key)"
-              [class.active]="isActiveCourse(course.key)">
-              {{ course.label }}
-            </a>
-          </li>
-          }
-        </ul>
-      </div>
-    </aside>
-  -->
-
   <main class="home-page">
     <app-hero [hero]="catalog.hero"></app-hero>
     <app-tech [technologies]="catalog.technologies"></app-tech>
     <app-teacher [teachers]="catalog.teachers"></app-teacher>
+    <app-course-topic [topic]="catalog.courseTopic"></app-course-topic>
+    <app-learning-space [learningSpace]="catalog.learningSpace"></app-learning-space>
+    <app-testimonials [testimonials]="catalog.testimonials"></app-testimonials>
+    <app-videos [videos]="catalog.videos"></app-videos>
+    <app-news [news]="catalog.news"></app-news>
     <app-course-formats [config]="catalog.courseFormats"></app-course-formats>
     <app-price-offers [config]="catalog.priceOffers"></app-price-offers>
+    <app-main-links [links]="catalog.mainWebsiteLinks"></app-main-links>
   </main>
 </div>
 }

@@ -2,19 +2,21 @@
   <div class="container">
     <h2 class="text-center mb-4">Our Instructors</h2>
 
-    <div class="row g-4">
+    <div class="row g-3" [class.justify-content-center]="teachers.length < 3">
       @for (teacher of teachers; track teacher.name) {
-      <div class="col-12 col-md-4">
-        <div class="teacher-card text-center">
-
+      <div
+        class="col-12"
+        [class.col-md-6]="teachers.length > 1"
+        [class.col-xl-4]="teachers.length > 2"
+        [class.col-lg-8]="teachers.length === 1"
+      >
+        <div class="teacher-card text-center h-100">
           <img [src]="teacher.imageUrl" [alt]="teacher.imageAlt" class="teacher-img mb-3" />
-
           <h3 class="fw-bold mb-1">{{ teacher.name }}</h3>
           <p class="teacher-role mb-2">{{ teacher.title }}</p>
-          <p class="teacher-description">
+          <p class="teacher-description mb-0">
             {{ teacher.description }}
           </p>
-
         </div>
       </div>
       }

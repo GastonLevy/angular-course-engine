@@ -9,35 +9,28 @@ import { Component } from '@angular/core';
 export class AboutUsComponent {
   sections = [
     {
-      title: 'Course Topic Explanation',
-      text: 'General description about the course topic and what students will learn.',
+      title: 'How It Works',
+      text: 'The application renders complete course pages dynamically using structured JSON configurations.',
     },
     {
-      title: 'Testimonials',
-      text: 'Feedback from previous students to help new users understand the course experience.',
-    },
-    { title: 'Videos', text: 'Introductory or promotional videos related to the course content.' },
-    {
-      title: 'Information About the Teacher',
-      text: 'Details about the instructor, background, skills, and achievements.',
+      title: 'Dynamic Content System',
+      text: 'Each section (hero, pricing, teachers, technologies) is driven by external data instead of hardcoded content.',
     },
     {
-      title: 'Information About the Course Space',
-      text: 'Description of the learning environment, materials, or platforms used.',
+      title: 'Component Architecture',
+      text: 'Built with reusable Angular standalone components focused on scalability and maintainability.',
     },
     {
-      title: 'Information About the Course Technologies',
-      text: 'List of tools and technologies the course uses or teaches.',
-    },
-    { title: 'News Section', text: 'Updates, announcements, or relevant news about the course.' },
-    { title: 'Price Offers', text: 'Different pricing options and special offers for students.' },
-    {
-      title: 'Different Course Formats',
-      text: 'Available formats such as Intro, Basic, and Advanced versions of the course.',
+      title: 'Course Presets',
+      text: 'Different courses can be loaded instantly by switching JSON presets without modifying the UI logic.',
     },
     {
-      title: 'Links to the Main Website',
-      text: 'Navigation links to the main platform or related pages.',
+      title: 'Technologies',
+      text: 'Angular, TypeScript, Bootstrap, and modern frontend patterns for real-world applications.',
+    },
+    {
+      title: 'Project Goal',
+      text: 'To demonstrate how a single frontend can support multiple products through clean architecture and data-driven design.',
     },
   ];
 }

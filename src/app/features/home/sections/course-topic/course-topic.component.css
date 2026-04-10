@@ -1,0 +1,70 @@
+.course-topic-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: var(--text);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.course-topic-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.course-topic-title {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.course-topic-description {
+    color: var(--text-muted);
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.course-topic-points {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.course-topic-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background-color: rgba(255, 255, 255, 0.025);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    transition: border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.course-topic-point:hover {
+    border-color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.04);
+    transform: translateY(-2px);
+}
+
+.course-topic-point-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    flex-shrink: 0;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1;
+
+    color: #7fffb0;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 230, 118, 0.2);
+}
+
+.course-topic-point-text {
+    color: var(--text);
+    line-height: 1.5;
+}

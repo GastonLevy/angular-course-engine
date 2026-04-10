@@ -1,0 +1,44 @@
+<section class="testimonials-section py-5">
+    @if (testimonials.items.length) {
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="mb-3">{{ testimonials.heading }}</h2>
+            <p class="mb-0">{{ testimonials.subheading }}</p>
+        </div>
+
+        <div class="row g-4" [class.justify-content-center]="testimonials.items.length < 3">
+            @for (item of testimonials.items; track item.name) {
+            <div class="col-12" [class.col-lg-4]="testimonials.items.length > 2"
+                [class.col-lg-6]="testimonials.items.length === 2" [class.col-lg-8]="testimonials.items.length === 1">
+                <article class="testimonial-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Rating -->
+                        <div class="mb-3 testimonial-stars">
+                            @for (star of [1,2,3,4,5]; track star) {
+                            <span>
+                                {{ star <= item.rating ? '★' : '☆' }} </span>
+                                    }
+                        </div>
+
+                        <!-- Comment -->
+                        <p class="mb-4 flex-grow-1">
+                            "{{ item.comment }}"
+                        </p>
+
+                        <!-- Author -->
+                        <div>
+                            <h3 class="h6 mb-1">{{ item.name }}</h3>
+                            <small class="text-muted">{{ item.role }}</small>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+            }
+        </div>
+
+    </div>
+    }
+</section>

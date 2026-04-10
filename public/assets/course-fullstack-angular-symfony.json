@@ -7,6 +7,87 @@
     "imageUrl": "assets/hero_images/hero-fullstack.png",
     "imageAlt": "Developer building a full-stack Angular and Symfony application"
   },
+  "courseTopic": {
+    "heading": "What You Will Learn",
+    "description": "This full-stack program is designed to help students build complete web applications from frontend to backend. It combines Angular, Symfony, APIs, databases, and deployment workflows to reflect how modern professional products are built.",
+    "learningPoints": [
+      "Build structured Angular frontends with reusable components and scalable architecture",
+      "Develop secure Symfony backends with services, validation, and API design",
+      "Connect frontend and backend through real REST-based workflows",
+      "Work with databases, authentication, and production-oriented project structure",
+      "Understand deployment, collaboration, and professional full-stack development practices"
+    ]
+  },
+  "testimonials": {
+    "heading": "What Our Students Say",
+    "subheading": "Real feedback from learners who completed the full-stack Angular and Symfony journey.",
+    "items": [
+      {
+        "name": "Daniel Fischer",
+        "role": "Junior Full-Stack Developer",
+        "rating": 5,
+        "comment": "This program helped me understand how frontend and backend really connect in a real project. It felt much closer to actual work than typical online courses."
+      },
+      {
+        "name": "Chiara Romano",
+        "role": "Career Changer",
+        "rating": 5,
+        "comment": "The mix of Angular, Symfony, and project-based learning gave me the structure I needed to build confidence and a portfolio at the same time."
+      },
+      {
+        "name": "Elias Novak",
+        "role": "Frontend Developer in Training",
+        "rating": 4,
+        "comment": "What I valued most was building something that actually felt like a professional application instead of isolated tutorials. The full-stack workflow finally made sense to me."
+      }
+    ]
+  },
+  "videos": {
+    "heading": "Program Videos",
+    "subheading": "A closer look at the course structure, teaching approach, and full-stack learning experience.",
+    "items": [
+      {
+        "title": "Angular in 100 Seconds",
+        "description": "A concise introduction to Angular’s core concepts, including components, templates, and data binding. This video gives a quick overview of how Angular structures modern web applications and helps you understand its role in building scalable front-end systems.",
+        "embedUrl": "https://www.youtube.com/embed/Ata9cSC2WpM?si=uBAVRWUK1Swdzmm6",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Angular_gradient_logo.png/500px-Angular_gradient_logo.png"
+      },
+      {
+        "title": "Why Learn Symfony in 2026?",
+        "description": "Explore the key reasons why Symfony remains a powerful choice for backend development in 2025. This video covers its flexibility, strong architecture, and real-world use cases, helping you understand why it’s widely used in professional, scalable applications.",
+        "embedUrl": "https://www.youtube.com/embed/6uXW-ulpj0s?si=q56A5SqvUoeHf_MQ",
+        "thumbnailUrl": "https://media.printables.com/media/prints/825304/images/6367971_fc2f9b61-ecea-4744-9ac0-6dbbc4dfe20a_337a4916-908f-41e4-9146-fa05e6839ff6/thumbs/inside/1280x960/jpg/symfony.webp"
+      }
+    ]
+  },
+  "learningSpace": {
+    "heading": "Your Learning Environment",
+    "description": "The program is built around practical development workflows, guided mentorship, and project-based learning that reflects how full-stack teams work in real environments.",
+    "features": [
+      "Hands-on full-stack projects from UI to API integration",
+      "Code reviews and structured mentor feedback",
+      "Access to repositories, exercises, and learning materials",
+      "Collaborative workflows with Git and team-based development habits",
+      "Community support and milestone-based progress"
+    ]
+  },
+  "news": [
+    {
+      "title": "New Career Support Module Available",
+      "description": "The program now includes additional guidance for portfolio improvement, interview preparation, and full-stack job readiness.",
+      "date": "2026-03-20"
+    }
+  ],
+  "mainWebsiteLinks": [
+    {
+      "label": "Main Platform",
+      "url": "https://your-platform.com"
+    },
+    {
+      "label": "All Courses",
+      "url": "https://your-platform.com/courses"
+    }
+  ],
   "courseFormats": {
     "heading": "Learning Formats",
     "subheading": "Choose the format that matches your schedule, learning style, and career goals.",
@@ -182,11 +263,13 @@
     },
     {
       "name": "Git",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "iconAlt": "Git logo"
     },
     {
       "name": "GitHub",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+      "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "iconAlt": "GitHub logo"
     }
   ]
 }

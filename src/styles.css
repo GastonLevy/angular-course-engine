@@ -7,10 +7,22 @@
     --border: rgba(240, 237, 229, 0.1);
 }
 
+/* Reset + fondo global */
 html,
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    background-color: var(--background);
+}
+
+/* IMPORTANTE: cubrir todo Angular */
+app-root,
+app-home,
+main,
+.home-wrapper {
+    display: block;
+    min-height: 100%;
     background-color: var(--background);
 }
 
@@ -46,4 +58,11 @@ body {
 /* Texto secundario */
 .text-muted {
     color: var(--text-muted) !important;
+}
+
+/* Footer (por si acaso) */
+.footer {
+    background-color: var(--background);
+    color: var(--text);
+    border-top: 1px solid var(--border);
 }

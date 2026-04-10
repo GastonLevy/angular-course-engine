@@ -7,8 +7,7 @@
     background: linear-gradient(180deg, #0f1a1a 0%, #121c1c 100%);
 }
 
-.contact-title,
-.team-title {
+.contact-title {
     color: var(--text, #f8f9fa);
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -20,8 +19,7 @@
     transition:
         transform 0.25s ease,
         border-color 0.25s ease,
-        box-shadow 0.25s ease,
-        background-color 0.25s ease;
+        box-shadow 0.25s ease;
 }
 
 .contact-intro {
@@ -30,16 +28,7 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.contact-form-card,
-.team-card {
-    background: rgba(30, 34, 40, 0.8);
-    color: var(--text, #f8f9fa);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
-}
-
-.contact-intro:hover,
-.contact-form-card:hover,
-.team-card:hover {
+.contact-intro:hover {
     transform: translateY(-4px);
     border-color: rgba(255, 255, 255, 0.14);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
@@ -49,87 +38,111 @@
     padding: 1.5rem;
 }
 
-.card-title {
-    margin-bottom: 0.75rem;
-    color: var(--text, #f8f9fa);
-    font-weight: 600;
-    line-height: 1.3;
-}
-
-.contact-section p,
-.member-description {
+.contact-section p {
     color: var(--text-secondary, #adb5bd);
     line-height: 1.65;
 }
 
-.contact-intro strong {
-    color: var(--text, #ffffff);
-    font-weight: 600;
+.contact-personal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-.form-label {
+.contact-name {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.25rem;
     color: var(--text, #f8f9fa);
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.contact-email-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.35rem;
+}
+
+.contact-email-text {
+    color: var(--text, #f8f9fa);
+    font-size: 0.95rem;
     font-weight: 500;
-    margin-bottom: 0.5rem;
 }
 
-.form-control {
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+.contact-email-actions {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.contact-email-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--text, #f8f9fa);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.contact-email-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-1px);
+    background: var(--primary);
+    color: #fff;
+}
+
+.contact-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.contact-action {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
     border-radius: 10px;
-    padding: 0.75rem 0.9rem;
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease,
-        background-color 0.2s ease;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
 }
 
-.form-control::placeholder {
-    color: rgba(173, 181, 189, 0.75);
+.contact-action.github {
+    background: var(--primary);
+    color: #fff;
+    border: 1px solid var(--primary);
 }
 
-.form-control:focus {
+.contact-action.linkedin {
     background: rgba(255, 255, 255, 0.06);
     color: var(--text, #f8f9fa);
-    border-color: rgba(255, 255, 255, 0.18);
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-textarea.form-control {
-    resize: vertical;
-    min-height: 120px;
+.contact-action.linkedin:hover {
+    background: var(--primary);
 }
 
-.contact-btn {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    color: var(--text, #f8f9fa);
-    border-radius: 10px;
-    padding: 0.7rem 1.2rem;
-    font-weight: 500;
-    transition:
-        background-color 0.2s ease,
-        border-color 0.2s ease,
-        transform 0.2s ease;
-}
-
-.contact-btn:hover,
-.contact-btn:focus {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.18);
-    color: var(--text, #ffffff);
+.contact-action:hover {
     transform: translateY(-1px);
+    opacity: 0.9;
 }
 
-.member-link {
-    color: #c7d2fe;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-.member-link:hover {
-    color: #e2e8f0;
+.contact-note {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    color: var(--text-muted, #cfcac3);
 }
 
 @media (max-width: 767.98px) {
@@ -137,12 +150,20 @@ textarea.form-control {
         min-height: auto;
     }
 
-    .contact-title,
-    .team-title {
+    .contact-title {
         font-size: 2rem;
     }
 
     .card-body {
         padding: 1.25rem;
+    }
+
+    .contact-email-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contact-actions {
+        flex-direction: column;
     }
 }

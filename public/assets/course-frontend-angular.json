@@ -7,6 +7,87 @@
     "imageUrl": "assets/hero_images/hero-frontend.png",
     "imageAlt": "Frontend developer building a modern Angular application"
   },
+  "courseTopic": {
+    "heading": "What You Will Learn",
+    "description": "This frontend course is designed to help students build modern Angular applications with strong engineering foundations. It covers everything from core frontend concepts to scalable architecture, UI quality, and production-ready development practices.",
+    "learningPoints": [
+      "Build reusable Angular components and structured application layouts",
+      "Work with routing, forms, HTTP requests, and reactive patterns",
+      "Use TypeScript effectively in real frontend projects",
+      "Create responsive, accessible, and polished user interfaces",
+      "Apply maintainable architecture and frontend best practices"
+    ]
+  },
+  "testimonials": {
+    "heading": "What Our Students Say",
+    "subheading": "Experiences from learners who strengthened their frontend skills with Angular and modern UI engineering.",
+    "items": [
+      {
+        "name": "Sophie Wagner",
+        "role": "Junior Frontend Developer",
+        "rating": 5,
+        "comment": "This course helped me finally understand Angular beyond the basics. The project structure and practical exercises made a huge difference."
+      },
+      {
+        "name": "Marco Bianchi",
+        "role": "Career Switcher",
+        "rating": 4,
+        "comment": "I liked that the course was not just about syntax. It showed how real frontend applications are built and improved over time."
+      },
+      {
+        "name": "Lea Hoffmann",
+        "role": "Frontend Student",
+        "rating": 5,
+        "comment": "The sections on components, architecture, and UI polish gave me a much clearer way to think about building Angular applications professionally."
+      }
+    ]
+  },
+  "videos": {
+    "heading": "Course Videos",
+    "subheading": "A quick look at Angular concepts, frontend workflows, and the kind of skills students build throughout the course.",
+    "items": [
+      {
+        "title": "What is Frontend Development??",
+        "description": "A clear introduction to frontend development, explaining how user interfaces are built and how technologies like HTML, CSS, and JavaScript work together to create interactive web experiences. Ideal for beginners who want to understand the role of frontend in modern web applications.",
+        "embedUrl": "https://www.youtube.com/embed/e0NwBRUbE38?si=odL_wSnDVBHp2cO2",
+        "thumbnailUrl": "https://keepcoding.io/wp-content/uploads/2021/06/que-es-desarrollo-frontend.jpg"
+      },
+      {
+        "title": "Angular in 100 Seconds",
+        "description": "A concise introduction to Angular’s core concepts, including components, templates, and data binding. This video gives a quick overview of how Angular structures modern web applications and helps you understand its role in building scalable front-end systems.",
+        "embedUrl": "https://www.youtube.com/embed/Ata9cSC2WpM?si=uBAVRWUK1Swdzmm6",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Angular_gradient_logo.png/500px-Angular_gradient_logo.png"
+      }
+    ]
+  },
+  "learningSpace": {
+    "heading": "Your Learning Environment",
+    "description": "The course includes a practical environment focused on real project work, guided exercises, and frontend development workflows used in professional teams.",
+    "features": [
+      "Hands-on Angular projects with guided implementation",
+      "Code reviews and mentor feedback",
+      "Access to project repositories and learning materials",
+      "Structured exercises for UI, architecture, and refactoring",
+      "Community support and collaborative learning"
+    ]
+  },
+  "news": [
+    {
+      "title": "New Module: Angular UI Architecture",
+      "description": "A new section has been added to help students design cleaner, more reusable frontend component structures.",
+      "date": "2026-03-18"
+    }
+  ],
+  "mainWebsiteLinks": [
+    {
+      "label": "Main Platform",
+      "url": "https://your-platform.com"
+    },
+    {
+      "label": "All Courses",
+      "url": "https://your-platform.com/courses"
+    }
+  ],
   "courseFormats": {
     "heading": "Frontend Learning Paths",
     "subheading": "Choose a learning path that matches your current level, your schedule, and the type of frontend developer you want to become.",

@@ -5,6 +5,12 @@ import { TeacherComponent } from './sections/teacher/teacher.component';
 import { TechComponent } from './sections/tech/tech.component';
 import { PriceOffersComponent } from './sections/price-offers/price-offers.component';
 import { CourseFormatsComponent } from './sections/course-formats/course-formats.component';
+import { CourseTopicComponent } from './sections/course-topic/course-topic.component';
+import { LearningSpaceComponent } from './sections/learning-space/learning-space.component';
+import { MainLinksComponent } from './sections/main-links/main-links.component';
+import { NewsComponent } from './sections/news/news.component';
+import { VideosComponent } from './sections/videos/videos.component';
+import { TestimonialsComponent } from './sections/testimonials/testimonials.component';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +21,12 @@ import { CourseFormatsComponent } from './sections/course-formats/course-formats
     TechComponent,
     CourseFormatsComponent,
     PriceOffersComponent,
+    CourseTopicComponent,
+    LearningSpaceComponent,
+    MainLinksComponent,
+    NewsComponent,
+    VideosComponent,
+    TestimonialsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

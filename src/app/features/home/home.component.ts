@@ -36,6 +36,9 @@ export class HomeComponent {
   readonly courses = this.catalogService.courses;
   readonly currentCourseKey = this.catalogService.currentCourseKey;
 
+  readonly isLoading = this.catalogService.isLoading;
+  readonly error = this.catalogService.error;
+
   selectCourse(courseKey: string): void {
     this.catalogService.loadCourse(courseKey);
   }

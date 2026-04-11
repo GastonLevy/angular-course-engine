@@ -1,4 +1,18 @@
-@if (catalog(); as catalog) {
+@if (isLoading()) {
+<div class="home-wrapper text-center py-5">
+  <div class="spinner-border text-light mb-3" role="status"></div>
+  <p class="text-light">Loading course...</p>
+</div>
+}
+@else if (error()) {
+<div class="home-wrapper text-center py-5">
+  <div class="error-state-card card mx-auto p-4 border-0 shadow-sm">
+    <h5 class="text-danger mb-3">Unable to load content</h5>
+    <p class="text-light mb-0">{{ error() }}</p>
+  </div>
+</div>
+}
+@else if (catalog(); as catalog) {
 <div class="home-wrapper">
   <main class="home-page">
     <app-hero [hero]="catalog.hero"></app-hero>

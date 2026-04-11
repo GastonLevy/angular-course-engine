@@ -167,7 +167,7 @@
     .dropdown-menu {
         position: absolute;
         top: calc(100% + 0.4rem);
-        left: 50%;
+        left: 40%;
         transform: translateX(-50%);
         width: calc(100% - 1rem);
         max-width: 320px;
@@ -176,10 +176,9 @@
         border-radius: 0.5rem;
     }
 
-    /* centrar flecha en mobile */
     .dropdown-menu::before {
-        left: 50%;
-        transform: translateX(-50%) rotate(45deg);
+        left: 18px;
+        transform: rotate(45deg);
     }
 }
 

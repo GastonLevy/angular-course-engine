@@ -1,7 +1,7 @@
 <h1 align="center">Angular Course Engine</h1>
 
 <p align="center">
-  Scalable, JSON-driven UI platform for dynamic course landing pages
+  Build complete course landing pages dynamically from JSON — no hardcoded UI.
 </p>
 
 <p align="center">
@@ -13,11 +13,11 @@
 <h2>🚀 What This Is</h2>
 
 <p>
-<strong>Angular Course Engine</strong> is a frontend system designed to render complete course landing pages dynamically from structured JSON.
+<strong>Angular Course Engine</strong> is a frontend system that renders full course landing pages dynamically from structured JSON configurations.
 </p>
 
 <p>
-It eliminates hardcoded UI by separating content from presentation, enabling instant reconfiguration of the entire application without touching component logic.
+Instead of building static pages, the entire UI is driven by data, allowing instant reconfiguration without modifying component logic.
 </p>
 
 <hr/>
@@ -25,9 +25,9 @@ It eliminates hardcoded UI by separating content from presentation, enabling ins
 <h2>🔥 Core Value</h2>
 
 <ul>
-  <li>Transforms static UIs into configurable systems</li>
-  <li>Enables multi-course platforms with a single codebase</li>
-  <li>Reduces development overhead for new landing pages to near zero</li>
+  <li>Removes hardcoded UI by rendering layouts from JSON</li>
+  <li>Allows adding new courses without modifying components</li>
+  <li>Scales from a single landing page to multi-course platforms</li>
 </ul>
 
 <hr/>
@@ -35,37 +35,31 @@ It eliminates hardcoded UI by separating content from presentation, enabling ins
 <h2>⚙️ Technical Highlights</h2>
 
 <ul>
-  <li>Architecture based on <strong>data-driven rendering</strong></li>
-  <li>Fully modular <strong>standalone Angular components</strong></li>
-  <li>Reactive state handled via <strong>Angular Signals</strong></li>
-  <li>Centralized data loading through <code>CourseCatalogService</code></li>
-  <li>Strict separation between UI structure and content</li>
+  <li>Data-driven rendering architecture</li>
+  <li>Modular <strong>standalone Angular components</strong></li>
+  <li>Reactive state management with <strong>Angular Signals</strong></li>
+  <li>Centralized data orchestration via <code>CourseCatalogService</code></li>
+  <li>Strict separation between content and presentation</li>
 </ul>
 
 <hr/>
 
-<h2>🧠 System Design</h2>
-
-<ul>
-  <li><strong>Content Layer:</strong> JSON presets (course configurations)</li>
-  <li><strong>Logic Layer:</strong> Service-driven data orchestration</li>
-  <li><strong>Presentation Layer:</strong> Reusable UI components</li>
-</ul>
+<h2>🧠 How It Works</h2>
 
 <p>
-This structure allows scaling from a single landing page to a full course platform without architectural changes.
+Course configurations are loaded from JSON files, stored in reactive signals, and rendered dynamically through reusable UI components.
 </p>
 
 <hr/>
 
-<h2>📦 Dynamic Rendering Flow</h2>
+<h2>🧠 What I Focused On</h2>
 
-<ol>
-  <li>Load selected course preset</li>
-  <li>Fetch JSON from <code>/assets</code></li>
-  <li>Update reactive state (Signals)</li>
-  <li>Render UI dynamically via component composition</li>
-</ol>
+<ul>
+  <li>Designing a reusable, data-driven UI architecture</li>
+  <li>Keeping components strictly presentation-focused</li>
+  <li>Managing application state using Angular Signals</li>
+  <li>Preparing the system for future backend integration</li>
+</ul>
 
 <hr/>
 
@@ -100,9 +94,9 @@ src/
 <h2>📈 Engineering Impact</h2>
 
 <ul>
-  <li>Replaces static pages with a configurable rendering engine</li>
-  <li>Improves maintainability through strict separation of concerns</li>
-  <li>Demonstrates production-oriented frontend architecture</li>
+  <li>Replaces static pages with a configurable rendering system</li>
+  <li>Reduces development time for new landing pages to near zero</li>
+  <li>Demonstrates scalable, production-oriented frontend architecture</li>
 </ul>
 
 <hr/>
